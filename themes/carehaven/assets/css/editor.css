@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Carehaven — Gutenberg Block Editor Parity Styles
+   ========================================================================== */
+
+.editor-styles-wrapper .is-style-carehaven-card,
+.editor-styles-wrapper .is-style-carehaven-card-interactive {
+	background-color: var(--wp--preset--color--surface);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: 16px;
+}
+
+.editor-styles-wrapper .carehaven-ba__range {
+	pointer-events: none;
+}

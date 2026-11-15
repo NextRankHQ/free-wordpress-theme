@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Warm Copper & Brass",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Warm Alabaster (Canvas)",
+					"slug": "ivory",
+					"color": "#FAF8F4"
+				},
+				{
+					"name": "Pure Surface (Card)",
+					"slug": "surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Warm Sand (Section Alt)",
+					"slug": "linen",
+					"color": "#F1ECE1"
+				},
+				{
+					"name": "Soft Brass Tint",
+					"slug": "copper-tint",
+					"color": "#FDE68A"
+				},
+				{
+					"name": "Cast Iron Charcoal (Headings)",
+					"slug": "navy",
+					"color": "#1C1917"
+				},
+				{
+					"name": "Warm Graphite (Body)",
+					"slug": "ink",
+					"color": "#292524"
+				},
+				{
+					"name": "Muted Stone",
+					"slug": "slate-muted",
+					"color": "#57534E"
+				},
+				{
+					"name": "Burnished Copper (Primary CTA)",
+					"slug": "copper",
+					"color": "#9A3412"
+				},
+				{
+					"name": "Deep Copper (Hover)",
+					"slug": "copper-hover",
+					"color": "#7C2D12"
+				},
+				{
+					"name": "Emergency Crimson",
+					"slug": "crimson",
+					"color": "#991B1B"
+				},
+				{
+					"name": "Hairline Border",
+					"slug": "border",
+					"color": "#D6D3D1"
+				}
+			]
+		}
+	}
+}

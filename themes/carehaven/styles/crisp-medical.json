@@ -1,0 +1,77 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Crisp Multi-Clinic",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Clinical Ice (Canvas)",
+					"slug": "ivory",
+					"color": "#F7FAFC"
+				},
+				{
+					"name": "Pure Surface (Card)",
+					"slug": "surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Cool Mist (Section Alt)",
+					"slug": "linen",
+					"color": "#EDF2F7"
+				},
+				{
+					"name": "Medical Blue Tint",
+					"slug": "sage-tint",
+					"color": "#E2EEF8"
+				},
+				{
+					"name": "Deep Clinical Navy (Headings)",
+					"slug": "navy",
+					"color": "#0B2239"
+				},
+				{
+					"name": "Slate Ink (Body)",
+					"slug": "ink",
+					"color": "#1E3246"
+				},
+				{
+					"name": "Muted Slate",
+					"slug": "slate-muted",
+					"color": "#4A5E73"
+				},
+				{
+					"name": "Medical Royal Blue (Primary CTA)",
+					"slug": "sage",
+					"color": "#0F4C81"
+				},
+				{
+					"name": "Deep Royal Blue (Hover)",
+					"slug": "sage-hover",
+					"color": "#0A365C"
+				},
+				{
+					"name": "Urgent Crimson Accent",
+					"slug": "terracotta",
+					"color": "#B83232"
+				},
+				{
+					"name": "Hairline Border",
+					"slug": "border",
+					"color": "#D4DEE8"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--sans)",
+					"fontWeight": "700",
+					"letterSpacing": "-0.025em"
+				}
+			}
+		}
+	}
+}

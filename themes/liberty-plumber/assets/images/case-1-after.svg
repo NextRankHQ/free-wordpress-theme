@@ -1,0 +1,13 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="After whole-home repipe with clean Type-L copper and brass valves">
+  <rect width="640" height="400" fill="#EFF6FF"/>
+  <rect x="40" y="36" width="560" height="328" rx="16" fill="#0B2545"/>
+  <!-- Clean Parallel Type-L Copper Supply Headers -->
+  <path d="M90 130H550" stroke="#C2410C" stroke-width="24" stroke-linecap="round"/>
+  <path d="M90 250H550" stroke="#0284C7" stroke-width="24" stroke-linecap="round"/>
+  <!-- Precision Vertical Drops -->
+  <path d="M210 130V320M340 130V320M460 130V320" stroke="#EA580C" stroke-width="16" stroke-linecap="round"/>
+  <!-- Quarter-Turn Brass Ball Valves -->
+  <circle cx="210" cy="190" r="14" fill="#F59E0B" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="340" cy="190" r="14" fill="#F59E0B" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="460" cy="190" r="14" fill="#F59E0B" stroke="#FFFFFF" stroke-width="3"/>
+</svg>

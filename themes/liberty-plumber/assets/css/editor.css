@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Liberty Plumber — Gutenberg Block Editor Parity Styles
+   ========================================================================== */
+
+.editor-styles-wrapper .has-border-color:not(.has-text-color) {
+	color: var(--wp--preset--color--ink) !important;
+}
+
+.editor-styles-wrapper .is-style-libertyplumber-card,
+.editor-styles-wrapper .is-style-libertyplumber-card-interactive {
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--ink);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: 16px;
+}
+
+.editor-styles-wrapper .is-style-libertyplumber-coupon {
+	background-color: var(--wp--preset--color--surface);
+	border: 2px dashed var(--wp--preset--color--copper);
+	border-radius: 16px;
+}
+
+.editor-styles-wrapper .libertyplumber-ba__range {
+	pointer-events: none;
+}

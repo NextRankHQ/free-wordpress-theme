@@ -1,0 +1,14 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="After conversion to wall-mounted condensing tankless water heater">
+  <rect width="640" height="400" fill="#EFF6FF"/>
+  <rect x="40" y="36" width="560" height="328" rx="16" fill="#0B2545"/>
+  <!-- Compact Wall-Mounted Tankless Unit -->
+  <rect x="244" y="84" width="152" height="196" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+  <rect x="284" y="114" width="72" height="42" rx="8" fill="#0F172A"/>
+  <circle cx="304" cy="135" r="7" fill="#22C55E"/>
+  <rect x="320" y="131" width="24" height="8" rx="4" fill="#38BDF8"/>
+  <!-- Neat Copper & Cold Hydro Manifold Lines Below -->
+  <path d="M280 280V336M320 280V336M360 280V336" stroke="#C2410C" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="280" cy="304" r="9" fill="#0284C7"/>
+  <circle cx="320" cy="304" r="9" fill="#EF4444"/>
+  <circle cx="360" cy="304" r="9" fill="#F59E0B"/>
+</svg>

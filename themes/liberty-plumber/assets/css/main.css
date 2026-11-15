@@ -1,0 +1,1027 @@
+/* ==========================================================================
+   Liberty Plumber — Main Contractor Stylesheet
+   Crafted by NextRankHQ (https://nextrankhq.com)
+   ========================================================================== */
+
+:root {
+	--lp-radius-sm: 8px;
+	--lp-radius-md: 16px;
+	--lp-radius-lg: 24px;
+	--lp-transition: 200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+/* Accessible Focus Rings, Screen Reader Text & Core Skip Link */
+:focus-visible {
+	outline: 2.5px solid var(--wp--preset--color--copper);
+	outline-offset: 3px;
+	border-radius: 4px;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus,
+.skip-link.screen-reader-text:focus,
+#wp-skip-link:focus {
+	background-color: var(--wp--preset--color--navy);
+	border-radius: 8px;
+	box-shadow: var(--wp--preset--shadow--elevated);
+	clip: auto !important;
+	clip-path: none;
+	color: var(--wp--preset--color--surface);
+	display: block;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	height: auto;
+	left: 1rem;
+	line-height: 1.4;
+	outline: 2.5px solid var(--wp--preset--color--copper);
+	outline-offset: 2px;
+	padding: 0.75rem 1.25rem;
+	text-decoration: none;
+	top: 1rem;
+	width: auto;
+	z-index: 100000 !important;
+}
+
+main,
+#wp--skip-link--target {
+	scroll-margin-top: 6rem;
+}
+
+/* Sticky Dispatch Header */
+header.wp-block-template-part {
+	position: sticky;
+	top: 0;
+	z-index: 90;
+	transition: box-shadow var(--lp-transition);
+}
+
+body.admin-bar header.wp-block-template-part {
+	top: 32px;
+}
+
+@media (max-width: 782px) {
+	body.admin-bar header.wp-block-template-part {
+		top: 0;
+	}
+}
+
+header.wp-block-template-part.is-scrolled .libertyplumber-nav-bar {
+	box-shadow: 0 10px 30px -12px rgba(11, 37, 69, 0.14);
+}
+
+.libertyplumber-nav-bar {
+	border-bottom: 1px solid var(--wp--preset--color--border);
+	transition: box-shadow var(--lp-transition), background-color var(--lp-transition);
+}
+
+.libertyplumber-brand {
+	flex-shrink: 0;
+}
+
+.libertyplumber-brand .wp-block-site-title {
+	font-size: clamp(1.15rem, 1.45vw, 1.35rem);
+}
+
+.libertyplumber-brand .wp-block-site-logo img {
+	max-height: 38px;
+	width: auto;
+	object-fit: contain;
+}
+
+.libertyplumber-nav-bar .wp-block-buttons {
+	flex-shrink: 0;
+}
+
+@media (min-width: 600px) {
+	.libertyplumber-nav-bar nav.wp-block-navigation {
+		flex: 0 1 auto;
+		min-width: 0;
+		background-color: var(--wp--preset--color--ivory);
+		border: 1px solid var(--wp--preset--color--border);
+		border-radius: 22px;
+		padding: 0.26rem 0.35rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.libertyplumber-nav-bar > .alignwide {
+		flex-wrap: nowrap !important;
+		gap: 1.25rem;
+	}
+}
+
+.wp-block-navigation__responsive-container-open {
+	padding: 0.48rem;
+	border-radius: 10px;
+	border: 1px solid var(--wp--preset--color--border);
+	background-color: var(--wp--preset--color--ivory);
+	color: var(--wp--preset--color--navy);
+	transition: background-color var(--lp-transition), border-color var(--lp-transition);
+}
+
+.wp-block-navigation__responsive-container-open:hover {
+	background-color: var(--wp--preset--color--copper-tint);
+	border-color: var(--wp--preset--color--copper);
+}
+
+/* Navigation Pill & Active Link Polish */
+.libertyplumber-nav-bar .wp-block-navigation__container,
+.libertyplumber-nav-bar .wp-block-navigation .wp-block-page-list {
+	gap: 0.2rem !important;
+	row-gap: 0.2rem !important;
+	align-items: center;
+}
+
+.libertyplumber-nav-bar .wp-block-navigation .wp-block-navigation-item__content {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	padding: 0.38rem 0.72rem;
+	border-radius: 999px;
+	font-size: 0.88rem;
+	font-weight: 600;
+	line-height: 1.25;
+	white-space: nowrap;
+	color: var(--wp--preset--color--navy);
+	text-decoration: none !important;
+	transition: background-color var(--lp-transition), color var(--lp-transition), box-shadow var(--lp-transition);
+}
+
+.libertyplumber-nav-bar .wp-block-navigation .wp-block-navigation-item__content:hover {
+	background-color: var(--wp--preset--color--copper-tint);
+	color: var(--wp--preset--color--copper);
+}
+
+.libertyplumber-nav-bar .wp-block-navigation .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content,
+.libertyplumber-nav-bar .wp-block-navigation .wp-block-navigation-item__content[aria-current="page"] {
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--copper);
+	font-weight: 700;
+	box-shadow: 0 1px 3px rgba(11, 37, 69, 0.1);
+}
+
+.libertyplumber-nav-bar .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container,
+.libertyplumber-nav-bar .wp-block-navigation__responsive-container.is-menu-open .wp-block-page-list {
+	align-items: stretch;
+	width: 100%;
+	gap: 0.35rem !important;
+}
+
+.libertyplumber-nav-bar .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content {
+	width: 100%;
+	padding: 0.7rem 1rem;
+	border-radius: 10px;
+	font-size: 1.05rem;
+}
+
+/* High-Contrast Dark Navy Section & Footer Links */
+.has-navy-background-color a:not(.wp-block-button__link):not(.wp-block-social-link-anchor),
+.libertyplumber-site-footer a:not(.wp-block-button__link):not(.wp-block-social-link-anchor) {
+	color: #FDE68A !important;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.has-navy-background-color a:not(.wp-block-button__link):not(.wp-block-social-link-anchor):hover,
+.libertyplumber-site-footer a:not(.wp-block-button__link):not(.wp-block-social-link-anchor):hover {
+	color: #FFFFFF !important;
+}
+
+/* Footer Social Icon Buttons */
+.libertyplumber-site-footer .wp-block-social-links,
+.libertyplumber-social-links {
+	display: flex !important;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.65rem !important;
+	list-style: none !important;
+	padding-left: 0 !important;
+	margin: 1.35rem 0 0 0 !important;
+}
+
+.libertyplumber-site-footer .wp-block-social-links .wp-social-link,
+.libertyplumber-social-links .wp-social-link {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: transparent !important;
+}
+
+.libertyplumber-site-footer .wp-block-social-links .wp-block-social-link-anchor,
+.libertyplumber-social-links .wp-block-social-link-anchor {
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	padding: 0 !important;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1) !important;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+	transition: background-color var(--lp-transition), border-color var(--lp-transition), transform var(--lp-transition), color var(--lp-transition);
+}
+
+.libertyplumber-site-footer .wp-block-social-links .wp-block-social-link-anchor svg,
+.libertyplumber-social-links .wp-block-social-link-anchor svg {
+	width: 19px !important;
+	height: 19px !important;
+	fill: currentColor !important;
+}
+
+.libertyplumber-site-footer .wp-block-social-links .wp-block-social-link-anchor:hover,
+.libertyplumber-site-footer .wp-block-social-links .wp-block-social-link-anchor:focus-visible,
+.libertyplumber-social-links .wp-block-social-link-anchor:hover,
+.libertyplumber-social-links .wp-block-social-link-anchor:focus-visible {
+	background-color: var(--wp--preset--color--copper) !important;
+	border-color: var(--wp--preset--color--copper) !important;
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+	transform: translateY(-2px);
+}
+
+/* Footer Vertical Navigation Links */
+.libertyplumber-site-footer .wp-block-navigation__container,
+.libertyplumber-site-footer .wp-block-navigation .wp-block-page-list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.45rem;
+}
+
+.libertyplumber-site-footer .wp-block-navigation .wp-block-navigation-item__content {
+	color: var(--wp--preset--color--ivory) !important;
+	padding: 0.1rem 0;
+	font-size: 0.9375rem;
+	font-weight: 400;
+	line-height: 1.45;
+	text-decoration: none !important;
+	transition: color var(--lp-transition);
+}
+
+.libertyplumber-site-footer .wp-block-navigation .wp-block-navigation-item__content:hover,
+.libertyplumber-site-footer .wp-block-navigation .wp-block-navigation-item__content:focus-visible {
+	color: #FDE68A !important;
+	text-decoration: underline !important;
+}
+
+/* Buttons & Outline Buttons */
+.wp-block-button__link {
+	transition: background-color var(--lp-transition), color var(--lp-transition), border-color var(--lp-transition), transform var(--lp-transition), box-shadow var(--lp-transition);
+}
+
+.wp-block-button__link:hover {
+	transform: translateY(-1px);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	border-width: 1.5px;
+	border-color: var(--wp--preset--color--border);
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--navy);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+	border-color: var(--wp--preset--color--navy);
+	background-color: var(--wp--preset--color--linen);
+}
+
+.wp-block-button.is-style-libertyplumber-soft .wp-block-button__link {
+	background-color: var(--wp--preset--color--copper-tint);
+	color: var(--wp--preset--color--navy);
+	border: 1px solid transparent;
+}
+
+.wp-block-button.is-style-libertyplumber-soft .wp-block-button__link:hover {
+	background-color: var(--wp--preset--color--copper);
+	color: var(--wp--preset--color--surface);
+}
+
+/* ==========================================================================
+   Block Style Variations (Cards, Coupons, Checkmarks, Accordions)
+   ========================================================================== */
+
+/* Prevent WordPress core .has-border-color utility class from colliding with 'border' color slug */
+.has-border-color:not(.has-text-color) {
+	color: var(--wp--preset--color--ink) !important;
+}
+
+.is-style-libertyplumber-card {
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--ink);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: var(--lp-radius-md);
+	box-shadow: var(--wp--preset--shadow--card);
+}
+
+.is-style-libertyplumber-card-interactive {
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--ink);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: var(--lp-radius-md);
+	box-shadow: var(--wp--preset--shadow--card);
+	transition: transform var(--lp-transition), box-shadow var(--lp-transition), border-color var(--lp-transition);
+}
+
+.is-style-libertyplumber-card-interactive:hover,
+.is-style-libertyplumber-card-interactive:focus-within {
+	transform: translateY(-4px);
+	box-shadow: var(--wp--preset--shadow--elevated);
+	border-color: var(--wp--preset--color--copper);
+}
+
+.is-style-libertyplumber-coupon {
+	background-color: var(--wp--preset--color--surface);
+	border: 2px dashed var(--wp--preset--color--copper);
+	border-radius: var(--lp-radius-md);
+	box-shadow: var(--wp--preset--shadow--card);
+}
+
+/* Plumbing Checkmark Lists */
+ul.is-style-libertyplumber-checks {
+	list-style: none !important;
+	padding-left: 0 !important;
+	margin-left: 0;
+}
+
+ul.is-style-libertyplumber-checks > li {
+	position: relative;
+	padding-left: 1.85rem;
+	margin-bottom: 0.65rem;
+	line-height: 1.55;
+	color: var(--wp--preset--color--ink);
+}
+
+ul.is-style-libertyplumber-checks > li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.25em;
+	width: 1.15rem;
+	height: 1.15rem;
+	border-radius: 50%;
+	background-color: var(--wp--preset--color--copper-tint);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M3.5 8.3L6.4 11.2L12.5 5.1' stroke='%23C2410C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	background-size: 13px 13px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* Eyebrow Pill Label */
+.libertyplumber-eyebrow {
+	display: inline-block;
+	padding: 0.32rem 0.85rem;
+	border-radius: 999px;
+	background-color: var(--wp--preset--color--copper-tint);
+	color: var(--wp--preset--color--copper);
+	font-size: 0.8125rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	line-height: 1.3;
+}
+
+/* Plumbing FAQ Accordion (Native core/details) */
+details.wp-block-details.is-style-libertyplumber-faq,
+details.wp-block-details.libertyplumber-faq-item {
+	background-color: var(--wp--preset--color--surface);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: var(--lp-radius-md);
+	padding: 1.15rem 1.4rem;
+	transition: border-color var(--lp-transition), box-shadow var(--lp-transition);
+}
+
+details.wp-block-details.is-style-libertyplumber-faq + details.wp-block-details.is-style-libertyplumber-faq,
+details.wp-block-details.libertyplumber-faq-item + details.wp-block-details.libertyplumber-faq-item {
+	margin-top: 0.85rem;
+}
+
+details.wp-block-details.is-style-libertyplumber-faq[open],
+details.wp-block-details.libertyplumber-faq-item[open] {
+	border-color: var(--wp--preset--color--copper);
+	box-shadow: var(--wp--preset--shadow--card);
+}
+
+details.wp-block-details.is-style-libertyplumber-faq > summary,
+details.wp-block-details.libertyplumber-faq-item > summary {
+	list-style: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	font-weight: 700;
+	font-size: 1.0625rem;
+	color: var(--wp--preset--color--navy);
+}
+
+details.wp-block-details.is-style-libertyplumber-faq > summary::-webkit-details-marker,
+details.wp-block-details.libertyplumber-faq-item > summary::-webkit-details-marker {
+	display: none;
+}
+
+details.wp-block-details.is-style-libertyplumber-faq > summary::after,
+details.wp-block-details.libertyplumber-faq-item > summary::after {
+	content: "+";
+	flex-shrink: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.75rem;
+	height: 1.75rem;
+	border-radius: 50%;
+	background-color: var(--wp--preset--color--linen);
+	color: var(--wp--preset--color--navy);
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 1;
+	transition: transform var(--lp-transition), background-color var(--lp-transition), color var(--lp-transition);
+}
+
+details.wp-block-details.is-style-libertyplumber-faq[open] > summary::after,
+details.wp-block-details.libertyplumber-faq-item[open] > summary::after {
+	content: "−";
+	background-color: var(--wp--preset--color--copper);
+	color: var(--wp--preset--color--surface);
+}
+
+/* ==========================================================================
+   Interactive Accessible Before / After Project Comparison
+   ========================================================================== */
+
+.libertyplumber-ba {
+	position: relative;
+	overflow: hidden;
+	border-radius: 14px;
+	border: 1px solid var(--wp--preset--color--border);
+	background-color: var(--wp--preset--color--linen);
+	aspect-ratio: 16 / 10;
+	user-select: none;
+	--ba-pos: 50%;
+}
+
+.libertyplumber-ba__layer {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.libertyplumber-ba__layer svg,
+.libertyplumber-ba__layer img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.libertyplumber-ba__before {
+	clip-path: inset(0 calc(100% - var(--ba-pos)) 0 0);
+	z-index: 2;
+}
+
+.libertyplumber-ba__after {
+	z-index: 1;
+}
+
+.libertyplumber-ba__badge {
+	position: absolute;
+	bottom: 0.75rem;
+	padding: 0.25rem 0.65rem;
+	border-radius: 999px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	z-index: 4;
+	pointer-events: none;
+}
+
+.libertyplumber-ba__badge--before {
+	left: 0.75rem;
+	background-color: rgba(11, 37, 69, 0.88);
+	color: #ffffff;
+}
+
+.libertyplumber-ba__badge--after {
+	right: 0.75rem;
+	background-color: var(--wp--preset--color--copper);
+	color: #ffffff;
+}
+
+.libertyplumber-ba__divider {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: var(--ba-pos);
+	width: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(11, 37, 69, 0.35);
+	z-index: 3;
+	pointer-events: none;
+}
+
+.libertyplumber-ba__handle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	color: var(--wp--preset--color--navy);
+	border: 2px solid var(--wp--preset--color--copper);
+	box-shadow: 0 4px 14px rgba(11, 37, 69, 0.22);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+.libertyplumber-ba__range {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	opacity: 0;
+	cursor: ew-resize;
+	z-index: 5;
+}
+
+.libertyplumber-ba:has(.libertyplumber-ba__range:focus-visible) {
+	outline: 3px solid var(--wp--preset--color--copper);
+	outline-offset: 3px;
+}
+
+/* ==========================================================================
+   Credential Pills & Dispatch Hours Tables
+   ========================================================================== */
+
+.libertyplumber-badge-pill {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 62px;
+	margin: 0;
+	padding: 0.85rem 1.15rem;
+	background-color: var(--wp--preset--color--surface);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: 12px;
+	font-weight: 700;
+	font-size: 0.95rem;
+	color: var(--wp--preset--color--navy);
+	letter-spacing: -0.01em;
+	text-align: center;
+}
+
+.libertyplumber-hours-table,
+.libertyplumber-hours-block table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.95rem;
+	border: none;
+}
+
+.libertyplumber-hours-block {
+	margin: 0.5rem 0 0;
+}
+
+.libertyplumber-hours-table tr,
+.libertyplumber-hours-block tr {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.libertyplumber-hours-table--light tr,
+.libertyplumber-hours-block--light tr {
+	border-bottom: 1px solid var(--wp--preset--color--border);
+}
+
+.libertyplumber-hours-table td,
+.libertyplumber-hours-block td {
+	padding: 0.55rem 0;
+	border: none;
+}
+
+.libertyplumber-hours-table td:last-child,
+.libertyplumber-hours-block td:last-child {
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+	font-weight: 600;
+}
+
+.page-template-page-canvas main.wp-block-group,
+.single-template-page-canvas main.wp-block-group,
+.page-template-page-blank main.wp-block-group {
+	padding: 0 !important;
+	margin: 0 !important;
+	max-width: none !important;
+}
+
+.page-template-page-canvas .entry-content > *,
+.single-template-page-canvas .entry-content > *,
+.page-template-page-blank .entry-content > * {
+	max-width: none;
+}
+
+/* ==========================================================================
+   WordPress Theme Unit Test & Classic Content Hardening
+   ========================================================================== */
+
+/* 1. Long Non-Breaking Titles, URLs & Site Titles (7.10, 1.2) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.wp-block-post-title,
+.wp-block-site-title,
+.wp-block-site-tagline,
+.wp-block-post-content,
+.wp-block-comment-content,
+.wp-block-post-terms,
+.wp-block-post-navigation-link {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/* 2. Responsive Media & Classic Editor Images / Captions / Galleries (6.6–6.9, 7.3) */
+img,
+figure,
+.wp-caption,
+iframe,
+video,
+embed,
+object {
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+.wp-block-post-content .alignleft,
+.wp-block-comment-content .alignleft {
+	float: left;
+	margin: 0.35rem 1.5rem 1rem 0;
+	max-width: 100%;
+}
+
+.wp-block-post-content .alignright,
+.wp-block-comment-content .alignright {
+	float: right;
+	margin: 0.35rem 0 1rem 1.5rem;
+	max-width: 100%;
+}
+
+.wp-block-post-content .aligncenter,
+.wp-block-comment-content .aligncenter {
+	display: block;
+	clear: both;
+	margin: 1.25rem auto;
+}
+
+.wp-caption {
+	margin-bottom: 1.25rem;
+	box-sizing: border-box;
+}
+
+.wp-caption img {
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-caption-text,
+.gallery-caption,
+.blocks-gallery-caption,
+.wp-block-gallery .blocks-gallery-item figcaption,
+figcaption {
+	display: block;
+	margin-top: 0.5rem;
+	font-size: 0.85rem;
+	line-height: 1.45;
+	color: var(--wp--preset--color--slate-muted);
+	overflow-wrap: break-word;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+
+.gallery-item {
+	margin: 0;
+	text-align: center;
+}
+
+/* 3. Float Clearing at End of Posts, Pages & Comments (7.3 Page 4, 8.4) */
+.wp-block-post-content::after,
+.entry-content::after,
+.wp-block-comment-content::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* 4. Sticky Posts on Blog Index (6.3 Layout Test) */
+.wp-block-post.sticky > .is-style-libertyplumber-card-interactive {
+	border: 2px solid var(--wp--preset--color--copper);
+	position: relative;
+}
+
+.wp-block-post.sticky > .is-style-libertyplumber-card-interactive::before {
+	content: "Featured";
+	display: inline-block;
+	margin-bottom: 0.65rem;
+	padding: 0.2rem 0.65rem;
+	border-radius: 999px;
+	background-color: var(--wp--preset--color--copper-tint);
+	color: var(--wp--preset--color--copper);
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+/* 5. Multi-Page Post Pagination Links <!--nextpage--> (7.1 Layout Test) */
+.page-links,
+.post-nav-links {
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 2rem 0;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--wp--preset--color--border);
+	font-weight: 600;
+	font-size: 0.9375rem;
+}
+
+.page-links a,
+.post-nav-links a,
+.page-links .post-page-numbers,
+.post-nav-links .post-page-numbers {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 2.1rem;
+	height: 2.1rem;
+	padding: 0 0.65rem;
+	border-radius: 8px;
+	border: 1px solid var(--wp--preset--color--border);
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--navy);
+	text-decoration: none;
+}
+
+.page-links .current,
+.post-nav-links .current {
+	background-color: var(--wp--preset--color--copper);
+	border-color: var(--wp--preset--color--copper);
+	color: var(--wp--preset--color--surface);
+}
+
+/* 6. Semantic HTML Elements in Posts & Comments (7.1 Page 3, 7.15) */
+.wp-block-post-content table:not(.has-fixed-layout),
+.wp-block-comment-content table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.5rem 0;
+	font-size: 0.95rem;
+}
+
+.wp-block-post-content table:not(.libertyplumber-hours-table) th,
+.wp-block-post-content table:not(.libertyplumber-hours-table) td,
+.wp-block-comment-content th,
+.wp-block-comment-content td {
+	padding: 0.65rem 0.85rem;
+	border: 1px solid var(--wp--preset--color--border);
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+.wp-block-hours-table td,
+.libertyplumber-hours-block table td {
+	border: none !important;
+	padding: 0.55rem 0 !important;
+}
+
+.wp-block-post-content th,
+.wp-block-comment-content th {
+	background-color: var(--wp--preset--color--linen);
+	color: var(--wp--preset--color--navy);
+	font-weight: 600;
+}
+
+.wp-block-post-content dl,
+.wp-block-comment-content dl {
+	margin: 1.25rem 0;
+}
+
+.wp-block-post-content dt,
+.wp-block-comment-content dt {
+	font-weight: 700;
+	color: var(--wp--preset--color--navy);
+	margin-top: 0.85rem;
+}
+
+.wp-block-post-content dd,
+.wp-block-comment-content dd {
+	margin: 0.25rem 0 0.75rem 1.5rem;
+}
+
+.wp-block-post-content pre,
+.wp-block-comment-content pre {
+	max-width: 100%;
+	overflow-x: auto;
+	padding: 1.15rem 1.25rem;
+	border-radius: 10px;
+	border: 1px solid var(--wp--preset--color--border);
+	background-color: var(--wp--preset--color--linen);
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.875rem;
+	line-height: 1.6;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: 0.9em;
+	padding: 0.15em 0.38em;
+	border-radius: 5px;
+	background-color: var(--wp--preset--color--linen);
+}
+
+pre code {
+	padding: 0;
+	background: transparent;
+}
+
+blockquote {
+	margin: 1.5rem 0;
+	padding: 0.5rem 0 0.5rem 1.35rem;
+	border-left: 3px solid var(--wp--preset--color--copper);
+	color: var(--wp--preset--color--navy);
+}
+
+blockquote cite,
+cite {
+	font-style: italic;
+	color: var(--wp--preset--color--slate-muted);
+}
+
+address {
+	font-style: normal;
+	line-height: 1.65;
+	margin: 1.25rem 0;
+	padding: 1rem 1.25rem;
+	border-radius: 10px;
+	background-color: var(--wp--preset--color--linen);
+}
+
+ins,
+mark {
+	background-color: var(--wp--preset--color--copper-tint);
+	color: var(--wp--preset--color--navy);
+	padding: 0.08em 0.28em;
+	text-decoration: none;
+}
+
+big {
+	font-size: 1.2em;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+.wp-block-post-content ul ul,
+.wp-block-post-content ol ol,
+.wp-block-post-content ul ol,
+.wp-block-post-content ol ul,
+.wp-block-comment-content ul ul,
+.wp-block-comment-content ol ol {
+	margin-top: 0.35rem;
+	margin-bottom: 0.35rem;
+}
+
+/* 7. Many Categories / Tags, Multi-Level Menus, Threaded Comments & Password Form (6.12, 6.13, 7.13–7.17, 10.1) */
+.wp-block-post-terms {
+	line-height: 1.7;
+}
+
+.wp-block-navigation .wp-block-navigation__submenu-container {
+	background-color: var(--wp--preset--color--surface) !important;
+	border: 1px solid var(--wp--preset--color--border) !important;
+	border-radius: 10px;
+	box-shadow: var(--wp--preset--shadow--card);
+	padding: 0.4rem 0;
+	min-width: 210px;
+}
+
+.wp-block-comment-template li.bypostauthor > .wp-block-group {
+	border-left: 3px solid var(--wp--preset--color--copper) !important;
+}
+
+.wp-block-comment-template ol {
+	padding-left: 1.75rem;
+}
+
+@media (max-width: 640px) {
+	.wp-block-comment-template ol {
+		padding-left: 0.85rem;
+	}
+}
+
+.wp-block-post-comments-form textarea,
+.wp-block-post-comments-form input[type="text"],
+.wp-block-post-comments-form input[type="email"],
+.wp-block-post-comments-form input[type="url"],
+.post-password-form input[type="password"] {
+	box-sizing: border-box;
+	padding: 0.75rem 0.95rem;
+	font-family: var(--wp--preset--font-family--sans);
+	font-size: 1rem;
+	color: var(--wp--preset--color--ink);
+	background-color: var(--wp--preset--color--surface);
+	border: 1.5px solid var(--wp--preset--color--border);
+	border-radius: 10px;
+}
+
+.post-password-form input[type="submit"] {
+	padding: 0.78rem 1.4rem;
+	border: none;
+	border-radius: 999px;
+	background-color: var(--wp--preset--color--copper);
+	color: var(--wp--preset--color--surface);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/* ==========================================================================
+   Print Stylesheet
+   ========================================================================== */
+
+@media print {
+	header.wp-block-template-part,
+	footer.wp-block-template-part,
+	.wp-block-buttons,
+	.libertyplumber-emergency-strip {
+		display: none !important;
+	}
+	body {
+		background: #ffffff !important;
+		color: #000000 !important;
+	}
+}

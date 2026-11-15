@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 680" fill="none" role="img" aria-label="Modern tankless water heater and copper manifold installation illustration">
+  <rect width="880" height="680" rx="28" fill="#EFF6FF"/>
+  <!-- Architectural Utility Room Wall & Tile Grid -->
+  <rect x="40" y="40" width="800" height="500" rx="20" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="40" y1="165" x2="840" y2="165" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="40" y1="290" x2="840" y2="290" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="40" y1="415" x2="840" y2="415" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="240" y1="40" x2="240" y2="540" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="440" y1="40" x2="440" y2="540" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="640" y1="40" x2="640" y2="540" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Concrete Utility Floor -->
+  <rect x="0" y="540" width="880" height="140" fill="#E2E8F0"/>
+  <line x1="0" y1="540" x2="880" y2="540" stroke="#CBD5E1" stroke-width="3"/>
+  <!-- Stainless Intake & Exhaust Venting Pipes -->
+  <rect x="515" y="40" width="34" height="96" fill="#94A3B8" stroke="#475569" stroke-width="2"/>
+  <rect x="595" y="40" width="34" height="96" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+  <!-- Wall-Mounted Condensing Tankless Water Heater Unit -->
+  <rect x="460" y="128" width="224" height="300" rx="18" fill="#FFFFFF" stroke="#0B2545" stroke-width="3"/>
+  <rect x="480" y="148" width="184" height="240" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Digital Controller Panel (Text-Free Geometric Bars) -->
+  <rect x="522" y="182" width="100" height="58" rx="10" fill="#0B2545"/>
+  <circle cx="546" cy="211" r="10" fill="#22C55E"/>
+  <rect x="566" y="202" width="42" height="8" rx="4" fill="#38BDF8"/>
+  <rect x="566" y="216" width="28" height="6" rx="3" fill="#94A3B8"/>
+  <!-- Copper Heat Exchanger Inspection Window -->
+  <rect x="512" y="264" width="120" height="88" rx="10" fill="#0F172A"/>
+  <path d="M526 286H618M526 304H618M526 322H618M526 340H618" stroke="#C2410C" stroke-width="6" stroke-linecap="round"/>
+  <!-- Precision Copper & Hydro Manifold Piping -->
+  <path d="M506 428V500H290V350" stroke="#0284C7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M556 428V472H338V240" stroke="#C2410C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M606 428V540" stroke="#EAB308" stroke-width="12" stroke-linecap="round"/>
+  <path d="M642 428V540" stroke="#64748B" stroke-width="10" stroke-linecap="round"/>
+  <!-- Brass Isolation Ball Valves -->
+  <circle cx="506" cy="456" r="11" fill="#F59E0B" stroke="#0B2545" stroke-width="2.5"/>
+  <circle cx="556" cy="456" r="11" fill="#EF4444" stroke="#0B2545" stroke-width="2.5"/>
+  <circle cx="606" cy="456" r="10" fill="#EAB308" stroke="#0B2545" stroke-width="2.5"/>
+  <!-- Left Wall Copper Manifold Header & Pressure Gauge -->
+  <rect x="130" y="130" width="248" height="250" rx="16" fill="#0B2545"/>
+  <rect x="150" y="152" width="208" height="206" rx="10" fill="#1E293B"/>
+  <!-- Hot & Cold Copper Header Bars -->
+  <rect x="174" y="182" width="160" height="18" rx="9" fill="#C2410C"/>
+  <rect x="174" y="276" width="160" height="18" rx="9" fill="#0284C7"/>
+  <!-- Branch Lines -->
+  <line x1="196" y1="200" x2="196" y2="254" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+  <line x1="234" y1="200" x2="234" y2="254" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+  <line x1="272" y1="200" x2="272" y2="254" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+  <line x1="310" y1="200" x2="310" y2="254" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+  <line x1="196" y1="294" x2="196" y2="342" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <line x1="234" y1="294" x2="234" y2="342" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <line x1="272" y1="294" x2="272" y2="342" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <line x1="310" y1="294" x2="310" y2="342" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <!-- Thermal Expansion Tank -->
+  <rect x="720" y="250" width="76" height="148" rx="38" fill="#0B2545" stroke="#475569" stroke-width="3"/>
+  <line x1="720" y1="324" x2="796" y2="324" stroke="#C2410C" stroke-width="4"/>
+  <path d="M642 398H758V428" stroke="#C2410C" stroke-width="8" stroke-linecap="round"/>
+  <!-- Floating Diagnostic Inspection Card Accent (Text-Free) -->
+  <rect x="76" y="438" width="286" height="162" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="122" cy="484" r="20" fill="#FFEDD5"/>
+  <path d="M114 484L120 490L132 478" stroke="#C2410C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="156" y="472" width="144" height="11" rx="5.5" fill="#0B2545"/>
+  <rect x="156" y="492" width="172" height="8" rx="4" fill="#94A3B8"/>
+  <line x1="102" y1="526" x2="336" y2="526" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="102" y="544" width="128" height="11" rx="5.5" fill="#C2410C"/>
+  <rect x="102" y="564" width="196" height="8" rx="4" fill="#CBD5E1"/>
+</svg>

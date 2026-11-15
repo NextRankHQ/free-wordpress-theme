@@ -1,0 +1,877 @@
+# Copyright (C) 2026 NextRankHQ
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Carehaven 1.0.4\n"
+"Report-Msgid-Bugs-To: https://nextrankhq.com/support\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: carehaven\n"
+
+#: inc/setup.php:63
+msgid "Carehaven: Full Clinic Page Layouts"
+msgstr ""
+
+#: inc/setup.php:64
+msgid "Complete 1-click dental and medical page layouts ready to customize."
+msgstr ""
+
+#: inc/setup.php:67
+msgid "Carehaven: Clinic Heroes & Banners"
+msgstr ""
+
+#: inc/setup.php:68
+msgid "Warm, high-trust hero sections and urgent care callouts."
+msgstr ""
+
+#: inc/setup.php:71
+msgid "Carehaven: Dental Services & Doctors"
+msgstr ""
+
+#: inc/setup.php:72
+msgid "Treatment grids, doctor DDS/MD profiles, and before/after smile cases."
+msgstr ""
+
+#: inc/setup.php:75
+msgid "Carehaven: Insurance, Pricing & Booking"
+msgstr ""
+
+#: inc/setup.php:76
+msgid "PPO insurance grids, in-house membership plans, patient FAQs, and appointment CTAs."
+msgstr ""
+
+#: inc/setup.php:94
+msgid "Clinical Card"
+msgstr ""
+
+#: inc/setup.php:102
+msgid "Interactive Lift Card"
+msgstr ""
+
+#: inc/setup.php:110
+msgid "Clinical Checkmarks"
+msgstr ""
+
+#: inc/setup.php:118
+msgid "Soft Tint Pill"
+msgstr ""
+
+#: inc/setup.php:126
+msgid "Clinical FAQ Card"
+msgstr ""
+
+#: inc/setup.php:138
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/setup.php:156
+msgid "Content pages"
+msgstr ""
+
+#: inc/setup.php:156
+msgid "Pages:"
+msgstr ""
+
+#: patterns/appointment-cta.php:23
+msgid "Reserve Your Appointment"
+msgstr ""
+
+#: patterns/appointment-cta.php:27
+msgid "Ready for a calmer dental experience?"
+msgstr ""
+
+#: patterns/appointment-cta.php:31
+msgid "Call our front desk directly or request a visit online. Contact our office during regular hours if you need urgent dental evaluation."
+msgstr ""
+
+#: patterns/appointment-cta.php:37
+msgid "Location:"
+msgstr ""
+
+#: patterns/appointment-cta.php:37
+#: patterns/header-default.php:21
+msgid "123 Street Name, Suite 100, City, State 00000"
+msgstr ""
+
+#: patterns/appointment-cta.php:37
+msgid "Access:"
+msgstr ""
+
+#: patterns/appointment-cta.php:37
+msgid "On-site parking & step-free entrance"
+msgstr ""
+
+#: patterns/appointment-cta.php:41
+#: patterns/footer-default.php:69
+msgid "Monday – Friday"
+msgstr ""
+
+#: patterns/appointment-cta.php:41
+#: patterns/footer-default.php:69
+msgid "9:00 AM – 5:00 PM"
+msgstr ""
+
+#: patterns/appointment-cta.php:41
+#: patterns/footer-default.php:69
+msgid "Saturday"
+msgstr ""
+
+#: patterns/appointment-cta.php:41
+#: patterns/appointment-cta.php:41
+#: patterns/footer-default.php:69
+#: patterns/footer-default.php:69
+msgid "Closed"
+msgstr ""
+
+#: patterns/appointment-cta.php:41
+#: patterns/footer-default.php:69
+msgid "Sunday"
+msgstr ""
+
+#: patterns/appointment-cta.php:53
+msgid "NEW & ESTABLISHED PATIENTS"
+msgstr ""
+
+#: patterns/appointment-cta.php:57
+msgid "Book Online or Speak With Our Team"
+msgstr ""
+
+#: patterns/appointment-cta.php:61
+msgid "Have your PPO member card handy if using insurance—our benefits coordinator verifies your exact coverage before your visit so there are never billing surprises."
+msgstr ""
+
+#: patterns/appointment-cta.php:66
+msgid "60-Minute Unhurried New Patient Exam"
+msgstr ""
+
+#: patterns/appointment-cta.php:68
+msgid "Paperless Digital Intake Forms Sent by Text"
+msgstr ""
+
+#: patterns/appointment-cta.php:70
+msgid "Same-Day Emergency Triage Available Daily"
+msgstr ""
+
+#: patterns/appointment-cta.php:77
+msgid "Schedule Appointment"
+msgstr ""
+
+#: patterns/appointment-cta.php:81
+#: patterns/header-minimal-default.php:25
+#: patterns/hero-practice.php:41
+msgid "Call (000) 000-0000"
+msgstr ""
+
+#: patterns/doctor-profiles.php:23
+msgid "Clinical Team"
+msgstr ""
+
+#: patterns/doctor-profiles.php:26
+msgid "Doctors who listen first—and never rush an exam."
+msgstr ""
+
+#: patterns/doctor-profiles.php:34
+msgid "Read Full Doctor Bios"
+msgstr ""
+
+#: patterns/doctor-profiles.php:48
+#: patterns/doctor-profiles.php:52
+msgid "Dr. Jane Doe, DDS"
+msgstr ""
+
+#: patterns/doctor-profiles.php:56
+msgid "Sample University Dental School • General & Restorative Care"
+msgstr ""
+
+#: patterns/doctor-profiles.php:60
+msgid "Dedicated to conservative tooth-preserving restorations, natural porcelain aesthetics, and helping anxious patients feel genuinely at ease."
+msgstr ""
+
+#: patterns/doctor-profiles.php:72
+#: patterns/doctor-profiles.php:76
+msgid "Dr. John Smith, DMD"
+msgstr ""
+
+#: patterns/doctor-profiles.php:80
+msgid "Sample Dental Institute • Implant & Surgical Dentistry"
+msgstr ""
+
+#: patterns/doctor-profiles.php:84
+msgid "Focuses on computer-guided 3D dental implants, gentle extractions, bone preservation, and comprehensive bite rehabilitation."
+msgstr ""
+
+#: patterns/doctor-profiles.php:96
+#: patterns/doctor-profiles.php:100
+msgid "Dr. Alex Rivera, DDS"
+msgstr ""
+
+#: patterns/doctor-profiles.php:104
+msgid "Sample College of Dentistry • Family & Clear Aligner Care"
+msgstr ""
+
+#: patterns/doctor-profiles.php:108
+msgid "Focused on welcoming pediatric checkups, preventive family dentistry, and custom digital clear aligner therapy."
+msgstr ""
+
+#: patterns/faq-clinical.php:21
+msgid "Common Patient Questions"
+msgstr ""
+
+#: patterns/faq-clinical.php:25
+msgid "Straightforward answers before you book."
+msgstr ""
+
+#: patterns/faq-clinical.php:29
+msgid "Do you accept my PPO dental insurance, and will you verify my coverage ahead of time?"
+msgstr ""
+
+#: patterns/faq-clinical.php:30
+msgid "Yes. We work with nearly all major employer and national PPO dental carriers. Share your member ID when booking and our benefits coordinator will verify your deductible, preventive coverage, and annual maximum before you arrive."
+msgstr ""
+
+#: patterns/faq-clinical.php:35
+msgid "What if I have severe dental anxiety or haven’t seen a dentist in years?"
+msgstr ""
+
+#: patterns/faq-clinical.php:36
+msgid "You will never receive a lecture here. Your first appointment starts sitting upright in conversation—not reclined with instruments in your mouth. We offer topical numbing prior to any anesthetic, gentle comfort sedation options, and a simple hand-raise stop signal you control at every moment."
+msgstr ""
+
+#: patterns/faq-clinical.php:41
+msgid "How quickly can I be seen for a toothache, broken crown, or dental emergency?"
+msgstr ""
+
+#: patterns/faq-clinical.php:42
+msgid "Please call (000) 000-0000 as early in the day as possible so our team can evaluate your symptoms and arrange prompt urgent dental care."
+msgstr ""
+
+#: patterns/faq-clinical.php:47
+msgid "Do you accept HSA/FSA cards and monthly payment plans?"
+msgstr ""
+
+#: patterns/faq-clinical.php:48
+msgid "Yes. You can use eligible HSA or FSA cards toward exams, crowns, implants, nightguards, and clear aligners, and our team can walk you through flexible monthly payment options."
+msgstr ""
+
+#: patterns/footer-default.php:25
+msgid "Preventive, restorative, cosmetic, and family dental care delivered with unhurried appointments and clear treatment estimates."
+msgstr ""
+
+#: patterns/footer-default.php:29
+msgid "123 Street Name, Suite 100"
+msgstr ""
+
+#: patterns/footer-default.php:29
+msgid "City, State 00000"
+msgstr ""
+
+#: patterns/footer-default.php:29
+#: patterns/header-default.php:25
+msgid "(000) 000-0000"
+msgstr ""
+
+#: patterns/footer-default.php:37
+msgid "Pages"
+msgstr ""
+
+#: patterns/footer-default.php:49
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:53
+msgid "Home"
+msgstr ""
+
+#: patterns/footer-default.php:54
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:55
+msgid "Our Providers"
+msgstr ""
+
+#: patterns/footer-default.php:56
+msgid "Patient Information"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer-default.php:65
+msgid "Office Hours"
+msgstr ""
+
+#: patterns/footer-default.php:73
+msgid "Update address, phone number, and office hours in the Site Editor."
+msgstr ""
+
+#: patterns/footer-default.php:89
+msgid "• All rights reserved."
+msgstr ""
+
+#. translators: 1: WordPress.org link, 2: Theme author link.
+#: patterns/footer-default.php:98
+msgid "Powered by %1$s • Carehaven by %2$s"
+msgstr ""
+
+#: patterns/footer-default.php:99
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: patterns/header-default.php:25
+msgid "Mon – Fri: 9:00 AM – 5:00 PM"
+msgstr ""
+
+#: patterns/header-default.php:48
+msgid "Book Appointment"
+msgstr ""
+
+#: patterns/hero-practice.php:23
+msgid "Accepting New Patients • Family & Cosmetic Dentistry"
+msgstr ""
+
+#: patterns/hero-practice.php:27
+msgid "Thoughtful, unhurried dental care built around your comfort."
+msgstr ""
+
+#: patterns/hero-practice.php:31
+msgid "From gentle preventive cleanings and pediatric visits to clear aligners, implants, and natural porcelain veneers—experience modern clinical precision with honest, written treatment estimates before we ever begin."
+msgstr ""
+
+#: patterns/hero-practice.php:37
+msgid "Schedule Your Visit"
+msgstr ""
+
+#: patterns/hero-practice.php:48
+msgid "Most major PPO dental plans welcome"
+msgstr ""
+
+#: patterns/hero-practice.php:48
+msgid "complimentary benefits check before your appointment"
+msgstr ""
+
+#: patterns/hero-practice.php:50
+msgid "Judgment-free care"
+msgstr ""
+
+#: patterns/hero-practice.php:50
+msgid "whether it has been 6 months or 10 years since your last visit"
+msgstr ""
+
+#: patterns/hero-practice.php:52
+msgid "Same-day emergency slots"
+msgstr ""
+
+#: patterns/hero-practice.php:52
+msgid "reserved daily for toothaches, broken crowns, and urgent pain"
+msgstr ""
+
+#: patterns/hero-practice.php:61
+msgid "Sunlit modern dental operatory studio"
+msgstr ""
+
+#: patterns/hidden-404.php:15
+msgid "Page Not Found (404)"
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgid "We couldn’t find that page—but we’re right here to help."
+msgstr ""
+
+#: patterns/hidden-404.php:23
+msgid "The page you requested may have moved or is no longer available. Use the search bar or return to the homepage below."
+msgstr ""
+
+#: patterns/hidden-404.php:26
+msgctxt "search label"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:26
+msgctxt "search placeholder"
+msgid "Search services, articles, or topics…"
+msgstr ""
+
+#: patterns/hidden-404.php:26
+msgctxt "search button"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:31
+msgid "Return to Homepage"
+msgstr ""
+
+#: patterns/insurance-bar.php:21
+msgid "TRANSPARENT COVERAGE & BILLING"
+msgstr ""
+
+#: patterns/insurance-bar.php:21
+msgid "We assist with PPO insurance claims & offer flexible monthly payment options"
+msgstr ""
+
+#: patterns/insurance-bar.php:27
+msgid "Major Employer PPOs"
+msgstr ""
+
+#: patterns/insurance-bar.php:30
+msgid "National Dental PPO"
+msgstr ""
+
+#: patterns/insurance-bar.php:33
+msgid "State & Educator PPO"
+msgstr ""
+
+#: patterns/insurance-bar.php:36
+msgid "Out-of-Network Filing"
+msgstr ""
+
+#: patterns/insurance-bar.php:39
+msgid "HSA & FSA Cards"
+msgstr ""
+
+#: patterns/insurance-bar.php:42
+msgid "Monthly Payment Plans"
+msgstr ""
+
+#: patterns/insurance-bar.php:48
+msgid "No dental insurance through work? Explore our"
+msgstr ""
+
+#: patterns/insurance-bar.php:48
+msgid "In-House Preventive Membership Plan ($29/mo equivalent)"
+msgstr ""
+
+#: patterns/insurance-bar.php:48
+msgid "with zero deductibles or waiting periods."
+msgstr ""
+
+#: patterns/membership-plan.php:21
+msgid "No Dental Insurance? No Problem."
+msgstr ""
+
+#: patterns/membership-plan.php:25
+msgid "Simple, honest In-House Membership Plans."
+msgstr ""
+
+#: patterns/membership-plan.php:29
+msgid "Built for self-employed professionals, retirees, and local families without employer benefits. Zero deductibles, zero yearly maximums, and zero claim denials."
+msgstr ""
+
+#: patterns/membership-plan.php:41
+msgid "AGES 13 & UNDER"
+msgstr ""
+
+#: patterns/membership-plan.php:44
+msgid "Child Preventive"
+msgstr ""
+
+#: patterns/membership-plan.php:47
+msgid "$269"
+msgstr ""
+
+#: patterns/membership-plan.php:47
+#: patterns/membership-plan.php:85
+#: patterns/membership-plan.php:123
+msgid "/ year"
+msgstr ""
+
+#: patterns/membership-plan.php:51
+msgid "2 Pediatric Cleanings & Doctor Exams"
+msgstr ""
+
+#: patterns/membership-plan.php:53
+msgid "2 Fluoride Enamel Treatments"
+msgstr ""
+
+#: patterns/membership-plan.php:55
+msgid "All Routine Bitewing Digital X-Rays"
+msgstr ""
+
+#: patterns/membership-plan.php:57
+msgid "1 Emergency Toothache Exam Included"
+msgstr ""
+
+#: patterns/membership-plan.php:59
+#: patterns/membership-plan.php:97
+#: patterns/membership-plan.php:135
+msgid "15% off"
+msgstr ""
+
+#: patterns/membership-plan.php:59
+msgid "sealants, fillings & aligners"
+msgstr ""
+
+#: patterns/membership-plan.php:65
+#: patterns/membership-plan.php:141
+msgid "Enroll at Your Visit"
+msgstr ""
+
+#: patterns/membership-plan.php:79
+msgid "MOST POPULAR • ADULTS 14+"
+msgstr ""
+
+#: patterns/membership-plan.php:82
+msgid "Adult Complete Care"
+msgstr ""
+
+#: patterns/membership-plan.php:85
+msgid "$349"
+msgstr ""
+
+#: patterns/membership-plan.php:89
+msgid "2 Healthy-Gum Cleanings & Comprehensive Exams"
+msgstr ""
+
+#: patterns/membership-plan.php:91
+msgid "Annual Oral Cancer & Gum Screening"
+msgstr ""
+
+#: patterns/membership-plan.php:93
+msgid "All Routine Checkup Digital X-Rays"
+msgstr ""
+
+#: patterns/membership-plan.php:95
+msgid "1 Same-Day Emergency Exam & X-Ray"
+msgstr ""
+
+#: patterns/membership-plan.php:97
+msgid "crowns, implants, clear aligners & veneers"
+msgstr ""
+
+#: patterns/membership-plan.php:103
+msgid "Join Adult Plan"
+msgstr ""
+
+#: patterns/membership-plan.php:117
+msgid "ACTIVE GUM THERAPY"
+msgstr ""
+
+#: patterns/membership-plan.php:120
+msgid "Periodontal Care"
+msgstr ""
+
+#: patterns/membership-plan.php:123
+msgid "$549"
+msgstr ""
+
+#: patterns/membership-plan.php:127
+msgid "3–4 Periodontal Maintenance Visits / Year"
+msgstr ""
+
+#: patterns/membership-plan.php:129
+msgid "2 Doctor Exams & Pocket Charting"
+msgstr ""
+
+#: patterns/membership-plan.php:131
+msgid "All Routine Diagnostic Digital X-Rays"
+msgstr ""
+
+#: patterns/membership-plan.php:133
+msgid "1 Same-Day Emergency Exam Included"
+msgstr ""
+
+#: patterns/membership-plan.php:135
+msgid "deep cleanings & restorative care"
+msgstr ""
+
+#: patterns/new-patient-journey.php:21
+msgid "Your First 60-Minute Visit"
+msgstr ""
+
+#: patterns/new-patient-journey.php:25
+msgid "Zero lectures. Zero surprises. Just clear answers."
+msgstr ""
+
+#: patterns/new-patient-journey.php:29
+msgid "Many patients put off dental visits due to stress or past experiences. Here is a clear walkthrough of how a typical first appointment unfolds."
+msgstr ""
+
+#: patterns/new-patient-journey.php:41
+msgid "STEP 01"
+msgstr ""
+
+#: patterns/new-patient-journey.php:44
+msgid "Paperless Check-In"
+msgstr ""
+
+#: patterns/new-patient-journey.php:47
+msgid "Complete secure intake forms on your phone in 4 minutes—no clipboard waiting room marathons."
+msgstr ""
+
+#: patterns/new-patient-journey.php:59
+msgid "STEP 02"
+msgstr ""
+
+#: patterns/new-patient-journey.php:62
+msgid "Comfort Menu & 3D Scan"
+msgstr ""
+
+#: patterns/new-patient-journey.php:65
+msgid "Choose a warm blanket or noise-canceling headphones while we capture HD photos and low-dose digital imaging."
+msgstr ""
+
+#: patterns/new-patient-journey.php:77
+msgid "STEP 03"
+msgstr ""
+
+#: patterns/new-patient-journey.php:80
+msgid "Side-by-Side Review"
+msgstr ""
+
+#: patterns/new-patient-journey.php:83
+msgid "Your doctor walks you through every image on screen in plain English—distinguishing urgent needs from watch-and-wait items."
+msgstr ""
+
+#: patterns/new-patient-journey.php:95
+msgid "STEP 04"
+msgstr ""
+
+#: patterns/new-patient-journey.php:98
+msgid "Written PPO Estimate"
+msgstr ""
+
+#: patterns/new-patient-journey.php:101
+msgid "Before scheduling any treatment, our coordinator hands you an exact insurance copay & out-of-pocket breakdown."
+msgstr ""
+
+#: patterns/services-grid.php:21
+msgid "Complete Care Under One Roof"
+msgstr ""
+
+#: patterns/services-grid.php:25
+msgid "Modern dentistry designed to preserve natural tooth structure."
+msgstr ""
+
+#: patterns/services-grid.php:29
+msgid "We pair conservative clinical judgment with 3D digital diagnostics so your family rarely needs outside specialist referrals across town."
+msgstr ""
+
+#: patterns/services-grid.php:41
+msgid "01 • PREVENTIVE & HYGIENE"
+msgstr ""
+
+#: patterns/services-grid.php:44
+msgid "Gentle Exams & Periodontal Care"
+msgstr ""
+
+#: patterns/services-grid.php:47
+msgid "Warm-water ultrasonic cleanings, oral cancer screenings, ultra-low-dose digital X-rays, and tailored gum health therapy."
+msgstr ""
+
+#: patterns/services-grid.php:50
+msgid "Explore Preventive Care →"
+msgstr ""
+
+#: patterns/services-grid.php:62
+msgid "02 • COSMETIC DENTISTRY"
+msgstr ""
+
+#: patterns/services-grid.php:65
+msgid "Porcelain Veneers & Whitening"
+msgstr ""
+
+#: patterns/services-grid.php:68
+msgid "Master-ceramist porcelain veneers, conservative composite bonding, and sensitivity-free clinical whitening tailored to your facial symmetry."
+msgstr ""
+
+#: patterns/services-grid.php:71
+msgid "View Smile Results →"
+msgstr ""
+
+#: patterns/services-grid.php:83
+msgid "03 • IMPLANTOLOGY"
+msgstr ""
+
+#: patterns/services-grid.php:86
+msgid "3D Guided Dental Implants"
+msgstr ""
+
+#: patterns/services-grid.php:89
+msgid "CBCT 3D-planned single implants, implant-supported bridges, and stable full-arch restorations placed and restored in one familiar office."
+msgstr ""
+
+#: patterns/services-grid.php:92
+msgid "Learn About Implants →"
+msgstr ""
+
+#: patterns/services-grid.php:108
+msgid "04 • CLEAR ALIGNERS"
+msgstr ""
+
+#: patterns/services-grid.php:111
+msgid "Clear Aligner Orthodontics"
+msgstr ""
+
+#: patterns/services-grid.php:114
+msgid "Discreet clear aligner therapy for adults and teens using 60-second 3D optical intraoral scans—never messy putty impressions."
+msgstr ""
+
+#: patterns/services-grid.php:117
+msgid "See Aligner Options →"
+msgstr ""
+
+#: patterns/services-grid.php:129
+msgid "05 • RESTORATIVE CARE"
+msgstr ""
+
+#: patterns/services-grid.php:132
+msgid "Crowns, Bonding & Endodontics"
+msgstr ""
+
+#: patterns/services-grid.php:135
+msgid "Metal-free ceramic crowns, biomimetic tooth-colored fillings, nightguards for TMJ/bruxism, and comfortable root canal therapy."
+msgstr ""
+
+#: patterns/services-grid.php:138
+msgid "Restorative Treatments →"
+msgstr ""
+
+#: patterns/services-grid.php:150
+msgid "06 • SAME-DAY URGENT CARE"
+msgstr ""
+
+#: patterns/services-grid.php:153
+msgid "Emergency & Sedation Dentistry"
+msgstr ""
+
+#: patterns/services-grid.php:156
+msgid "Fast relief for sudden toothaches, chipped front teeth, or lost crowns—with nitrous oxide and oral comfort sedation available."
+msgstr ""
+
+#: patterns/services-grid.php:159
+msgid "Request Same-Day Triage →"
+msgstr ""
+
+#: patterns/smile-before-after.php:21
+msgid "Sample Case Comparisons"
+msgstr ""
+
+#: patterns/smile-before-after.php:25
+msgid "Natural proportions—never artificial \"chiclet\" teeth."
+msgstr ""
+
+#: patterns/smile-before-after.php:29
+msgid "Drag or use arrow keys on each sample case below to compare pre-treatment condition and conservative restoration."
+msgstr ""
+
+#: patterns/smile-before-after.php:41
+msgid "Case 1: Porcelain Veneers and Diastema Closure Comparison"
+msgstr ""
+
+#: patterns/smile-before-after.php:42
+msgid "After minimal-prep porcelain veneers"
+msgstr ""
+
+#: patterns/smile-before-after.php:43
+msgid "Before minimal-prep porcelain veneers"
+msgstr ""
+
+#: patterns/smile-before-after.php:44
+#: patterns/smile-before-after.php:71
+msgid "Before"
+msgstr ""
+
+#: patterns/smile-before-after.php:45
+#: patterns/smile-before-after.php:72
+msgid "After"
+msgstr ""
+
+#: patterns/smile-before-after.php:47
+msgid "Slide to compare Case 1 before and after"
+msgstr ""
+
+#: patterns/smile-before-after.php:52
+msgid "Minimal-Prep Porcelain Veneers (6 Units)"
+msgstr ""
+
+#: patterns/smile-before-after.php:56
+#: patterns/smile-before-after.php:83
+msgid "Timeline:"
+msgstr ""
+
+#: patterns/smile-before-after.php:56
+msgid "2 Visits (3 Weeks)"
+msgstr ""
+
+#: patterns/smile-before-after.php:56
+#: patterns/smile-before-after.php:83
+msgid "Clinician:"
+msgstr ""
+
+#: patterns/smile-before-after.php:56
+msgid "Dr. Jane Doe, DDS • Closed midline diastema and repaired worn incisal edges while preserving healthy enamel."
+msgstr ""
+
+#: patterns/smile-before-after.php:68
+msgid "Case 2: Clear Aligner Alignment and Clinical Whitening Comparison"
+msgstr ""
+
+#: patterns/smile-before-after.php:69
+msgid "After clear aligner therapy and whitening"
+msgstr ""
+
+#: patterns/smile-before-after.php:70
+msgid "Before clear aligner therapy and whitening"
+msgstr ""
+
+#: patterns/smile-before-after.php:74
+msgid "Slide to compare Case 2 before and after"
+msgstr ""
+
+#: patterns/smile-before-after.php:79
+msgid "Clear Aligner Arch Therapy + Edge Bonding"
+msgstr ""
+
+#: patterns/smile-before-after.php:83
+msgid "6 Months"
+msgstr ""
+
+#: patterns/smile-before-after.php:83
+msgid "Dr. Alex Rivera, DDS • Corrected adult crowding after childhood braces relapse, finished with conservative whitening."
+msgstr ""
+
+#: patterns/testimonials.php:21
+msgid "Patient Testimonials"
+msgstr ""
+
+#: patterns/testimonials.php:25
+msgid "What patients appreciate most about their visits."
+msgstr ""
+
+#: patterns/testimonials.php:37
+#: patterns/testimonials.php:55
+#: patterns/testimonials.php:73
+msgid "Sample Quote"
+msgstr ""
+
+#: patterns/testimonials.php:40
+msgid "“Replace this placeholder quote with feedback from one of your patients describing a calm, unhurried consultation and clear explanation of treatment options.”"
+msgstr ""
+
+#: patterns/testimonials.php:43
+#: patterns/testimonials.php:61
+#: patterns/testimonials.php:79
+msgid "Patient Name"
+msgstr ""
+
+#: patterns/testimonials.php:43
+msgid "Preventive & Restorative Care"
+msgstr ""
+
+#: patterns/testimonials.php:58
+msgid "“Replace this placeholder quote with a patient story highlighting responsive scheduling, gentle emergency care, and helpful front-desk coordination.”"
+msgstr ""
+
+#: patterns/testimonials.php:61
+msgid "Same-Day Urgent Care"
+msgstr ""
+
+#: patterns/testimonials.php:76
+msgid "“Replace this placeholder quote with a testimonial from a local family about transparent pricing, preventive checkups, and welcoming pediatric care.”"
+msgstr ""
+
+#: patterns/testimonials.php:79
+msgid "Family Dental Care"
+msgstr ""

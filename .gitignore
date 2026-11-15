@@ -1,0 +1,11 @@
+# Ignore everything at root except README.md, .gitignore, and themes/
+/*
+!/README.md
+!/.gitignore
+!/themes/
+
+# Ignore OS/editor dotfiles inside themes/
+.DS_Store
+Thumbs.db
+*.swp
+*~

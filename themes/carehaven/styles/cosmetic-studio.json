@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Cosmetic Studio",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Warm Alabaster (Canvas)",
+					"slug": "ivory",
+					"color": "#FAF7F2"
+				},
+				{
+					"name": "Pure Surface (Card)",
+					"slug": "surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Champagne Sand (Section Alt)",
+					"slug": "linen",
+					"color": "#F2EBE1"
+				},
+				{
+					"name": "Soft Champagne Tint",
+					"slug": "sage-tint",
+					"color": "#EFE6D8"
+				},
+				{
+					"name": "Espresso Charcoal (Headings)",
+					"slug": "navy",
+					"color": "#1C1917"
+				},
+				{
+					"name": "Warm Graphite (Body)",
+					"slug": "ink",
+					"color": "#2E2A27"
+				},
+				{
+					"name": "Muted Taupe",
+					"slug": "slate-muted",
+					"color": "#5C544E"
+				},
+				{
+					"name": "Burnished Bronze (Primary CTA)",
+					"slug": "sage",
+					"color": "#7A5628"
+				},
+				{
+					"name": "Deep Bronze (Hover)",
+					"slug": "sage-hover",
+					"color": "#5C3F1C"
+				},
+				{
+					"name": "Warm Rosewood Accent",
+					"slug": "terracotta",
+					"color": "#9E4747"
+				},
+				{
+					"name": "Hairline Border",
+					"slug": "border",
+					"color": "#DFD6C9"
+				}
+			]
+		}
+	}
+}

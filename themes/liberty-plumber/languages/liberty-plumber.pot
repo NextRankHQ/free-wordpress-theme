@@ -1,0 +1,1229 @@
+# Copyright (C) 2026 NextRankHQ
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Liberty Plumber 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/liberty-plumber\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-15T11:10:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: liberty-plumber\n"
+
+#: patterns/coupons-specials.php:23
+msgid "Web-Only Homeowner Specials"
+msgstr ""
+
+#: patterns/coupons-specials.php:27
+msgid "Save on your next plumbing or drain visit."
+msgstr ""
+
+#: patterns/coupons-specials.php:31
+msgid "Mention any special below when booking online or by phone—or customize these offer amounts in the Site Editor."
+msgstr ""
+
+#: patterns/coupons-specials.php:43
+msgid "DRAIN CLEARING SPECIAL"
+msgstr ""
+
+#: patterns/coupons-specials.php:46
+msgid "$89 Mainline Clearing"
+msgstr ""
+
+#: patterns/coupons-specials.php:49
+msgid "Includes cabling of one accessible residential drain or main sewer cleanout plus a complimentary camera check."
+msgstr ""
+
+#: patterns/coupons-specials.php:54
+msgid "Claim $89 Drain Offer"
+msgstr ""
+
+#: patterns/coupons-specials.php:68
+msgid "ANY PLUMBING REPAIR"
+msgstr ""
+
+#: patterns/coupons-specials.php:71
+msgid "$50 Off Any Repair"
+msgstr ""
+
+#: patterns/coupons-specials.php:74
+msgid "Valid toward any residential leak repair, toilet rebuild, garbage disposal replacement, or pressure regulator install."
+msgstr ""
+
+#: patterns/coupons-specials.php:79
+msgid "Claim $50 Repair Coupon"
+msgstr ""
+
+#: patterns/coupons-specials.php:93
+msgid "HOT WATER UPGRADE"
+msgstr ""
+
+#: patterns/coupons-specials.php:96
+msgid "$250 Off Tankless"
+msgstr ""
+
+#: patterns/coupons-specials.php:99
+msgid "Save on a turnkey condensing tankless water heater installation with stainless venting and brass isolation valves."
+msgstr ""
+
+#: patterns/coupons-specials.php:104
+msgid "Claim $250 Tankless Offer"
+msgstr ""
+
+#: patterns/dispatch-process.php:23
+msgid "How Our Service Visits Work"
+msgstr ""
+
+#: patterns/dispatch-process.php:27
+msgid "No hourly billing surprises. Just clear options."
+msgstr ""
+
+#: patterns/dispatch-process.php:31
+msgid "Every residential and commercial call follows a transparent four-step process so you know the exact scope and cost before any repair begins."
+msgstr ""
+
+#: patterns/dispatch-process.php:43
+msgid "STEP 01"
+msgstr ""
+
+#: patterns/dispatch-process.php:46
+msgid "Fast Dispatch & Text Alert"
+msgstr ""
+
+#: patterns/dispatch-process.php:49
+msgid "Receive a confirmation text with your licensed technician’s arrival window before our truck pulls into your driveway."
+msgstr ""
+
+#: patterns/dispatch-process.php:61
+msgid "STEP 02"
+msgstr ""
+
+#: patterns/dispatch-process.php:64
+msgid "Camera & Pressure Diagnostics"
+msgstr ""
+
+#: patterns/dispatch-process.php:67
+msgid "We put on protective shoe covers and inspect the root cause using static pressure gauges or HD sewer cameras."
+msgstr ""
+
+#: patterns/dispatch-process.php:79
+msgid "STEP 03"
+msgstr ""
+
+#: patterns/dispatch-process.php:82
+msgid "Upfront Written Options"
+msgstr ""
+
+#: patterns/dispatch-process.php:85
+msgid "Review clear repair vs. replacement options and flat-rate pricing in writing before you authorize a single dollar of work."
+msgstr ""
+
+#: patterns/dispatch-process.php:97
+msgid "STEP 04"
+msgstr ""
+
+#: patterns/dispatch-process.php:100
+msgid "Code-Compliant Repair & Cleanup"
+msgstr ""
+
+#: patterns/dispatch-process.php:103
+msgid "Most repairs are completed on the spot from our stocked van, followed by pressure testing and a spotless work area."
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:25
+msgid "Schedule Service or Emergency Dispatch"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:29
+msgid "Ready for a dependable plumber who shows up on time?"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:33
+msgid "Call our dispatch desk directly or request a service window online. Our on-call technician is available 24/7 for active water leaks and main sewer backups."
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:39
+msgid "Shop & Dispatch:"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:39
+msgid "123 Street Name, Suite 100, City, State 00000"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:39
+msgid "Credentials:"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:39
+msgid "Licensed, Bonded & Insured • License #000000"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:43
+#: patterns/footer-default.php:85
+#: patterns/page-contact.php:144
+msgid "Monday – Friday"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:43
+#: patterns/footer-default.php:85
+#: patterns/page-contact.php:144
+msgid "7:00 AM – 8:00 PM"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:43
+#: patterns/footer-default.php:85
+#: patterns/page-contact.php:144
+msgid "Saturday"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:43
+#: patterns/footer-default.php:85
+#: patterns/page-contact.php:144
+msgid "8:00 AM – 5:00 PM"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:43
+msgid "Sunday / After-Hours"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:43
+msgid "24/7 Emergency Dispatch"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:55
+msgid "RESIDENTIAL & COMMERCIAL DISPATCH"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:59
+msgid "Book Online or Speak With Dispatch"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:63
+msgid "Describe your plumbing symptom or water heater model when booking—our dispatcher assigns a truck stocked with the exact parts for your call."
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:68
+msgid "Written Flat-Rate Estimate Before Work Begins"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:70
+msgid "Text Alert With Technician Bio & Arrival Window"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:72
+msgid "Backed by Our Written Workmanship Guarantee"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:79
+msgid "Request Service Online"
+msgstr ""
+
+#: patterns/emergency-cta-banner.php:83
+#: patterns/header-minimal-default.php:27
+#: patterns/hero-dispatch.php:43
+#: patterns/page-services.php:46
+msgid "Call (000) 000-0000"
+msgstr ""
+
+#: patterns/faq-accordion.php:23
+msgid "Common Homeowner Questions"
+msgstr ""
+
+#: patterns/faq-accordion.php:27
+msgid "Straightforward answers before our truck arrives."
+msgstr ""
+
+#: patterns/faq-accordion.php:31
+msgid "Do you charge by the hour or provide upfront flat-rate pricing?"
+msgstr ""
+
+#: patterns/faq-accordion.php:32
+msgid "We provide upfront, written flat-rate pricing before any work begins. After inspecting your plumbing issue, your technician will walk you through clear repair options so you know the exact total cost up front—never an open-ended hourly clock."
+msgstr ""
+
+#: patterns/faq-accordion.php:37
+msgid "What should I do first if a pipe bursts or my water heater starts leaking?"
+msgstr ""
+
+#: patterns/faq-accordion.php:38
+msgid "First, turn off your home’s main water shutoff valve (usually located near the front foundation, basement perimeter, or garage utility wall). For a leaking water heater, close the cold-water inlet valve on top of the unit and call (000) 000-0000 for priority dispatch."
+msgstr ""
+
+#: patterns/faq-accordion.php:43
+msgid "Do you pull municipal permits for water heater replacements and repiping?"
+msgstr ""
+
+#: patterns/faq-accordion.php:44
+msgid "Yes. Our office coordinates required municipal building and plumbing permits, thermal expansion tanks, seismic strapping, and city code inspections for water heaters, gas lines, sewer replacements, and whole-home repiping."
+msgstr ""
+
+#: patterns/faq-accordion.php:49
+msgid "Do you offer monthly payment options for larger plumbing projects?"
+msgstr ""
+
+#: patterns/faq-accordion.php:50
+msgid "Yes. We accept all major credit and debit cards and can walk you through flexible monthly payment plans for tankless water heater conversions, trenchless sewer repairs, and whole-house copper or PEX repiping."
+msgstr ""
+
+#: patterns/footer-default.php:27
+msgid "Residential and commercial plumbing, hydro-jetting drain cleaning, tankless water heaters, and whole-home copper or PEX repiping backed by upfront written estimates."
+msgstr ""
+
+#: patterns/footer-default.php:31
+#: patterns/page-contact.php:113
+msgid "123 Street Name, Suite 100"
+msgstr ""
+
+#: patterns/footer-default.php:31
+msgid "City, State 00000 • License #000000"
+msgstr ""
+
+#: patterns/footer-default.php:31
+#: patterns/page-contact.php:78
+msgid "(000) 000-0000"
+msgstr ""
+
+#: patterns/footer-default.php:49
+msgid "Core Services"
+msgstr ""
+
+#: patterns/footer-default.php:53
+msgid "Emergency Leak Repair"
+msgstr ""
+
+#: patterns/footer-default.php:54
+msgid "Drain & Hydro-Jetting"
+msgstr ""
+
+#: patterns/footer-default.php:55
+msgid "Tankless Water Heaters"
+msgstr ""
+
+#: patterns/footer-default.php:56
+msgid "Copper & PEX Repiping"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "Sewer Camera Inspection"
+msgstr ""
+
+#: patterns/footer-default.php:65
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:69
+msgid "Home"
+msgstr ""
+
+#: patterns/footer-default.php:70
+msgid "Plumbing Services"
+msgstr ""
+
+#: patterns/footer-default.php:71
+msgid "Water Heaters"
+msgstr ""
+
+#: patterns/footer-default.php:72
+msgid "Service Specials"
+msgstr ""
+
+#: patterns/footer-default.php:73
+msgid "Contact Dispatch"
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "Dispatch Hours"
+msgstr ""
+
+#: patterns/footer-default.php:85
+msgid "Emergency Service"
+msgstr ""
+
+#: patterns/footer-default.php:85
+msgid "24/7 On-Call"
+msgstr ""
+
+#: patterns/footer-default.php:89
+msgid "Update address, license number, phone number, and dispatch hours in the Site Editor."
+msgstr ""
+
+#: patterns/footer-default.php:109
+msgid "• All rights reserved."
+msgstr ""
+
+#: patterns/footer-default.php:119
+msgid "Powered by %1$s • Liberty Plumbing Theme by %2$s"
+msgstr ""
+
+#: patterns/footer-default.php:120
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: patterns/header-default.php:23
+msgid "123 Street Name, Suite 100, City, State 00000 • License #000000"
+msgstr ""
+
+#: patterns/header-default.php:27
+msgid "Mon – Sat: 7:00 AM – 8:00 PM"
+msgstr ""
+
+#: patterns/header-default.php:27
+msgid "24/7 Dispatch: (000) 000-0000"
+msgstr ""
+
+#: patterns/header-default.php:46
+msgctxt "navigation link"
+msgid "Home"
+msgstr ""
+
+#: patterns/header-default.php:47
+msgctxt "navigation link"
+msgid "Services"
+msgstr ""
+
+#: patterns/header-default.php:48
+msgctxt "navigation link"
+msgid "Water Heaters"
+msgstr ""
+
+#: patterns/header-default.php:49
+msgctxt "navigation link"
+msgid "Specials"
+msgstr ""
+
+#: patterns/header-default.php:50
+msgctxt "navigation link"
+msgid "Contact"
+msgstr ""
+
+#: patterns/header-default.php:56
+msgid "Schedule Service"
+msgstr ""
+
+#: patterns/hero-dispatch.php:25
+msgid "Licensed & Insured • Residential & Commercial Plumbing"
+msgstr ""
+
+#: patterns/hero-dispatch.php:29
+msgid "Fast, honest plumbing repairs backed by upfront written estimates."
+msgstr ""
+
+#: patterns/hero-dispatch.php:33
+msgid "From emergency burst pipes and hydro-jetting drain clearing to condensing tankless water heaters and whole-home copper repiping—our licensed technicians review every option and flat-rate price in writing before work begins."
+msgstr ""
+
+#: patterns/hero-dispatch.php:39
+msgid "Request Service Estimate"
+msgstr ""
+
+#: patterns/hero-dispatch.php:50
+msgid "Upfront flat-rate pricing"
+msgstr ""
+
+#: patterns/hero-dispatch.php:50
+msgid "written estimate approved before any wrench turns"
+msgstr ""
+
+#: patterns/hero-dispatch.php:52
+msgid "Fully stocked service trucks"
+msgstr ""
+
+#: patterns/hero-dispatch.php:52
+msgid "equipped for single-visit drain, valve, and heater repairs"
+msgstr ""
+
+#: patterns/hero-dispatch.php:54
+msgid "Respectful property protection"
+msgstr ""
+
+#: patterns/hero-dispatch.php:54
+msgid "shoe covers, drop cloths, and spotless workspace cleanup"
+msgstr ""
+
+#: patterns/hero-dispatch.php:63
+msgid "Modern tankless water heater and copper manifold installation"
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "Page Not Found (404)"
+msgstr ""
+
+#: patterns/hidden-404.php:21
+msgid "Looks like a clogged link—we could not find that page."
+msgstr ""
+
+#: patterns/hidden-404.php:25
+msgid "The page you requested may have moved or is no longer available. Use the search bar or return to the homepage below."
+msgstr ""
+
+#: patterns/hidden-404.php:28
+msgctxt "search label"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:28
+msgctxt "search placeholder"
+msgid "Search plumbing services, water heaters, or articles…"
+msgstr ""
+
+#: patterns/hidden-404.php:28
+msgctxt "search button"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:33
+msgid "Return to Homepage"
+msgstr ""
+
+#: patterns/membership-plan.php:23
+msgid "Preventive Plumbing Protection"
+msgstr ""
+
+#: patterns/membership-plan.php:27
+msgid "Annual Home Plumbing Care Memberships"
+msgstr ""
+
+#: patterns/membership-plan.php:31
+msgid "Stop small valve drips and mineral scale before they turn into emergency floods. Members receive priority scheduling, annual water heater flushing, and member-only repair savings."
+msgstr ""
+
+#: patterns/membership-plan.php:43
+msgid "CONDOS & TOWNHOMES"
+msgstr ""
+
+#: patterns/membership-plan.php:46
+msgid "Essential Shield"
+msgstr ""
+
+#: patterns/membership-plan.php:49
+msgid "$189"
+msgstr ""
+
+#: patterns/membership-plan.php:49
+#: patterns/membership-plan.php:87
+#: patterns/membership-plan.php:125
+msgid "/ year"
+msgstr ""
+
+#: patterns/membership-plan.php:53
+msgid "Annual 65-Point Plumbing Safety Inspection"
+msgstr ""
+
+#: patterns/membership-plan.php:55
+msgid "Static Water Pressure & PRV Valve Test"
+msgstr ""
+
+#: patterns/membership-plan.php:57
+msgid "All Shutoff & Supply Hose Tags Labeled"
+msgstr ""
+
+#: patterns/membership-plan.php:59
+msgid "Priority Front-of-Line Dispatch Status"
+msgstr ""
+
+#: patterns/membership-plan.php:61
+msgid "10% off"
+msgstr ""
+
+#: patterns/membership-plan.php:61
+msgid "any plumbing or drain repair"
+msgstr ""
+
+#: patterns/membership-plan.php:67
+#: patterns/membership-plan.php:143
+msgid "Enroll at Your Visit"
+msgstr ""
+
+#: patterns/membership-plan.php:81
+msgid "MOST POPULAR • SINGLE-FAMILY HOMES"
+msgstr ""
+
+#: patterns/membership-plan.php:84
+msgid "Complete Home Care"
+msgstr ""
+
+#: patterns/membership-plan.php:87
+msgid "$229"
+msgstr ""
+
+#: patterns/membership-plan.php:91
+msgid "Annual 65-Point Whole-Home Plumbing Check"
+msgstr ""
+
+#: patterns/membership-plan.php:93
+msgid "Annual Tank or Tankless Water Heater Flush"
+msgstr ""
+
+#: patterns/membership-plan.php:95
+msgid "1 Main Sewer Cleanout Camera Check / Year"
+msgstr ""
+
+#: patterns/membership-plan.php:97
+msgid "Waived Standard Dispatch Diagnostic Fee"
+msgstr ""
+
+#: patterns/membership-plan.php:99
+#: patterns/membership-plan.php:137
+msgid "15% off"
+msgstr ""
+
+#: patterns/membership-plan.php:99
+msgid "repairs, water heaters & repiping"
+msgstr ""
+
+#: patterns/membership-plan.php:105
+msgid "Join Complete Plan"
+msgstr ""
+
+#: patterns/membership-plan.php:119
+msgid "MULTI-UNIT & COMMERCIAL"
+msgstr ""
+
+#: patterns/membership-plan.php:122
+msgid "Commercial Priority"
+msgstr ""
+
+#: patterns/membership-plan.php:125
+msgid "$449"
+msgstr ""
+
+#: patterns/membership-plan.php:129
+msgid "2 Semi-Annual Drain & Grease Line Checks"
+msgstr ""
+
+#: patterns/membership-plan.php:131
+msgid "Annual Commercial Water Heater Descaling"
+msgstr ""
+
+#: patterns/membership-plan.php:133
+msgid "Annual Backflow Preventer Readiness Check"
+msgstr ""
+
+#: patterns/membership-plan.php:135
+msgid "Same-Day Priority Commercial Dispatch"
+msgstr ""
+
+#: patterns/membership-plan.php:137
+msgid "hydro-jetting & emergency repairs"
+msgstr ""
+
+#: patterns/page-contact.php:28
+msgid "24/7 Live Dispatch & Same-Day Scheduling"
+msgstr ""
+
+#: patterns/page-contact.php:32
+msgid "Contact Our Licensed Plumbing & Dispatch Team"
+msgstr ""
+
+#: patterns/page-contact.php:36
+msgid "Need immediate help with an active leak, backed-up main line, or failed water heater? Call our live 24/7 dispatch desk or schedule a convenient two-hour arrival window with upfront flat-rate pricing."
+msgstr ""
+
+#: patterns/page-contact.php:42
+msgid "Call 24/7 Dispatch: (000) 000-0000"
+msgstr ""
+
+#: patterns/page-contact.php:46
+msgid "Explore Plumbing Services"
+msgstr ""
+
+#: patterns/page-contact.php:56
+msgid "Licensed plumbing dispatch service truck ready for departure"
+msgstr ""
+
+#: patterns/page-contact.php:74
+msgid "DIRECT PHONE & EMERGENCY LINE"
+msgstr ""
+
+#: patterns/page-contact.php:82
+msgid "Speak directly with a local plumbing dispatcher 24 hours a day. We triage burst pipes, main sewer backups, and gas water heater leaks for priority response."
+msgstr ""
+
+#: patterns/page-contact.php:88
+msgid "Live 24/7 emergency dispatch desk"
+msgstr ""
+
+#: patterns/page-contact.php:91
+msgid "SMS technician tracking & arrival alerts"
+msgstr ""
+
+#: patterns/page-contact.php:105
+msgid "SHOP, WAREHOUSE & CREDENTIALS"
+msgstr ""
+
+#: patterns/page-contact.php:109
+msgid "Main Dispatch Office"
+msgstr ""
+
+#: patterns/page-contact.php:113
+msgid "City, State 00000"
+msgstr ""
+
+#: patterns/page-contact.php:113
+msgid "Email: service@example.com"
+msgstr ""
+
+#: patterns/page-contact.php:119
+msgid "State Master Plumber License #000000"
+msgstr ""
+
+#: patterns/page-contact.php:122
+msgid "Fully Bonded & $2M General Liability Insured"
+msgstr ""
+
+#: patterns/page-contact.php:136
+msgid "SERVICE & DISPATCH HOURS"
+msgstr ""
+
+#: patterns/page-contact.php:140
+msgid "Operating Schedule"
+msgstr ""
+
+#: patterns/page-contact.php:144
+msgid "Sunday & After-Hours"
+msgstr ""
+
+#: patterns/page-contact.php:144
+msgid "24/7 Emergency On-Call"
+msgstr ""
+
+#: patterns/page-contact.php:148
+msgid "Same-day 2-hour arrival windows available across all residential and commercial service zones."
+msgstr ""
+
+#: patterns/page-services.php:28
+msgid "Residential & Commercial Plumbing Directory"
+msgstr ""
+
+#: patterns/page-services.php:32
+msgid "Complete Plumbing, Drain & Repipe Services"
+msgstr ""
+
+#: patterns/page-services.php:36
+msgid "Every service call includes thorough diagnostics, written flat-rate pricing options before work starts, and code-compliant workmanship backed by our written guarantee."
+msgstr ""
+
+#: patterns/page-services.php:42
+msgid "Book a Service Visit"
+msgstr ""
+
+#: patterns/page-services.php:56
+msgid "Fully stocked commercial plumbing service truck"
+msgstr ""
+
+#: patterns/repipe-before-after.php:23
+msgid "Sample Project Comparisons"
+msgstr ""
+
+#: patterns/repipe-before-after.php:27
+msgid "Clean, labeled manifolds built for decades of service."
+msgstr ""
+
+#: patterns/repipe-before-after.php:31
+msgid "Drag or use arrow keys on each sample project below to compare pre-service pipe corrosion with our finished installation."
+msgstr ""
+
+#: patterns/repipe-before-after.php:43
+msgid "Project 1: Galvanized to Type-L Copper Manifold Repipe Comparison"
+msgstr ""
+
+#: patterns/repipe-before-after.php:44
+msgid "After Type-L copper manifold repipe with quarter-turn ball valves"
+msgstr ""
+
+#: patterns/repipe-before-after.php:45
+msgid "Before repipe showing corroded galvanized supply pipes"
+msgstr ""
+
+#: patterns/repipe-before-after.php:46
+#: patterns/repipe-before-after.php:73
+msgid "Before"
+msgstr ""
+
+#: patterns/repipe-before-after.php:47
+#: patterns/repipe-before-after.php:74
+msgid "After"
+msgstr ""
+
+#: patterns/repipe-before-after.php:49
+msgid "Slide to compare Project 1 before and after"
+msgstr ""
+
+#: patterns/repipe-before-after.php:54
+msgid "Whole-Home Type-L Copper Manifold Repipe"
+msgstr ""
+
+#: patterns/repipe-before-after.php:58
+#: patterns/repipe-before-after.php:85
+msgid "Timeline:"
+msgstr ""
+
+#: patterns/repipe-before-after.php:58
+msgid "2 Days (Water Restored Nightly)"
+msgstr ""
+
+#: patterns/repipe-before-after.php:58
+#: patterns/repipe-before-after.php:85
+msgid "Scope:"
+msgstr ""
+
+#: patterns/repipe-before-after.php:58
+msgid "Replaced rust-choked 1960s galvanized lines with Type-L copper headers and brass quarter-turn isolation valves."
+msgstr ""
+
+#: patterns/repipe-before-after.php:70
+msgid "Project 2: Rusted Tank to Condensing Tankless Water Heater Comparison"
+msgstr ""
+
+#: patterns/repipe-before-after.php:71
+msgid "After wall-mounted condensing tankless water heater conversion"
+msgstr ""
+
+#: patterns/repipe-before-after.php:72
+msgid "Before conversion showing aging rusted atmospheric tank water heater"
+msgstr ""
+
+#: patterns/repipe-before-after.php:76
+msgid "Slide to compare Project 2 before and after"
+msgstr ""
+
+#: patterns/repipe-before-after.php:81
+msgid "Condensing Tankless Water Heater Conversion"
+msgstr ""
+
+#: patterns/repipe-before-after.php:85
+msgid "1 Day (Same-Day Turnkey)"
+msgstr ""
+
+#: patterns/repipe-before-after.php:85
+msgid "Hauled away leaking 50-gallon tank and installed a 199,000 BTU wall-hung unit with service flush valves."
+msgstr ""
+
+#: patterns/services-grid.php:23
+msgid "Complete Residential & Commercial Plumbing"
+msgstr ""
+
+#: patterns/services-grid.php:27
+msgid "Code-compliant plumbing repairs built to last."
+msgstr ""
+
+#: patterns/services-grid.php:31
+msgid "We pair fiber-optic sewer camera diagnostics and acoustic leak detection with fully stocked service trucks so most repairs are completed in a single visit."
+msgstr ""
+
+#: patterns/services-grid.php:43
+msgid "01 • 24/7 EMERGENCY REPAIRS"
+msgstr ""
+
+#: patterns/services-grid.php:46
+msgid "Burst Pipes & Active Leak Detection"
+msgstr ""
+
+#: patterns/services-grid.php:49
+msgid "Rapid shutoff valve replacement, thermal slab leak pinpointing, frozen pipe thawing, and main water line repairs."
+msgstr ""
+
+#: patterns/services-grid.php:52
+msgid "Explore Emergency Plumbing →"
+msgstr ""
+
+#: patterns/services-grid.php:64
+msgid "02 • DRAIN & SEWER CLEARING"
+msgstr ""
+
+#: patterns/services-grid.php:67
+msgid "Hydro-Jetting & Root Removal"
+msgstr ""
+
+#: patterns/services-grid.php:70
+msgid "High-pressure 4,000 PSI hydro-jetting, motorized rooter cabling, and HD sewer camera inspection to eliminate recurring backups."
+msgstr ""
+
+#: patterns/services-grid.php:73
+msgid "View Drain Solutions →"
+msgstr ""
+
+#: patterns/services-grid.php:85
+msgid "03 • HOT WATER SYSTEMS"
+msgstr ""
+
+#: patterns/services-grid.php:88
+msgid "Tankless & Tank Water Heaters"
+msgstr ""
+
+#: patterns/services-grid.php:91
+msgid "Same-day 40/50/75-gallon tank replacements and high-efficiency condensing tankless water heater conversions with recirculation."
+msgstr ""
+
+#: patterns/services-grid.php:94
+msgid "Compare Water Heaters →"
+msgstr ""
+
+#: patterns/services-grid.php:110
+msgid "04 • WHOLE-HOME REPIPING"
+msgstr ""
+
+#: patterns/services-grid.php:113
+msgid "Type-L Copper & PEX-A Repiping"
+msgstr ""
+
+#: patterns/services-grid.php:116
+msgid "Replace corroded galvanized or polybutylene supply lines with commercial-grade Type-L copper or expansion PEX-A manifolds."
+msgstr ""
+
+#: patterns/services-grid.php:119
+msgid "See Repipe Process →"
+msgstr ""
+
+#: patterns/services-grid.php:131
+msgid "05 • SEWER LINE RESTORATION"
+msgstr ""
+
+#: patterns/services-grid.php:134
+msgid "Trenchless Sewer & Sump Pumps"
+msgstr ""
+
+#: patterns/services-grid.php:137
+msgid "Cured-in-place trenchless pipe lining, main sewer cleanout installation, and cast-iron sump pumps with battery backups."
+msgstr ""
+
+#: patterns/services-grid.php:140
+msgid "Sewer & Basement Care →"
+msgstr ""
+
+#: patterns/services-grid.php:152
+msgid "06 • FIXTURES & FILTRATION"
+msgstr ""
+
+#: patterns/services-grid.php:155
+msgid "Gas Lines, Softeners & Fixtures"
+msgstr ""
+
+#: patterns/services-grid.php:158
+msgid "Pressure-tested natural gas piping, whole-house carbon filtration and water softeners, toilets, faucets, and disposals."
+msgstr ""
+
+#: patterns/services-grid.php:161
+msgid "Book Fixture Upgrade →"
+msgstr ""
+
+#: patterns/technician-profiles.php:25
+msgid "Field Leadership"
+msgstr ""
+
+#: patterns/technician-profiles.php:28
+msgid "Licensed technicians who respect your home and schedule."
+msgstr ""
+
+#: patterns/technician-profiles.php:36
+msgid "Meet Our Full Team"
+msgstr ""
+
+#: patterns/technician-profiles.php:50
+msgid "Alex Morgan, Master Plumber"
+msgstr ""
+
+#: patterns/technician-profiles.php:54
+msgid "Alex Morgan"
+msgstr ""
+
+#: patterns/technician-profiles.php:58
+msgid "Master Plumber (License #000000) • Whole-Home Repipe Lead"
+msgstr ""
+
+#: patterns/technician-profiles.php:62
+msgid "Specializes in Type-L copper and PEX-A manifold repiping, water pressure regulation, and complex slab leak reroutes."
+msgstr ""
+
+#: patterns/technician-profiles.php:74
+msgid "Jordan Taylor, Hydronic & Tankless Specialist"
+msgstr ""
+
+#: patterns/technician-profiles.php:78
+msgid "Jordan Taylor"
+msgstr ""
+
+#: patterns/technician-profiles.php:82
+msgid "Journeyman Plumber • Tankless & Gas Line Specialist"
+msgstr ""
+
+#: patterns/technician-profiles.php:86
+msgid "Focuses on high-efficiency condensing tankless water heaters, dedicated recirculation loops, and code-compliant gas piping."
+msgstr ""
+
+#: patterns/technician-profiles.php:98
+msgid "Sam Rivera, Drain & Sewer Specialist"
+msgstr ""
+
+#: patterns/technician-profiles.php:102
+msgid "Sam Rivera"
+msgstr ""
+
+#: patterns/technician-profiles.php:106
+msgid "Drain & Sewer Lead • Hydro-Jetting & Camera Diagnostics"
+msgstr ""
+
+#: patterns/technician-profiles.php:110
+msgid "Leads fiber-optic sewer camera inspections, 4,000 PSI hydro-jetting, trenchless spot repairs, and backflow prevention testing."
+msgstr ""
+
+#: patterns/testimonials-grid.php:23
+msgid "Homeowner Testimonials"
+msgstr ""
+
+#: patterns/testimonials-grid.php:27
+msgid "What local homeowners appreciate most about our crew."
+msgstr ""
+
+#: patterns/testimonials-grid.php:39
+#: patterns/testimonials-grid.php:57
+#: patterns/testimonials-grid.php:75
+msgid "Sample Quote"
+msgstr ""
+
+#: patterns/testimonials-grid.php:42
+msgid "“Replace this placeholder quote with feedback from one of your customers describing fast emergency leak dispatch, protective shoe covers, and clear upfront flat-rate pricing.”"
+msgstr ""
+
+#: patterns/testimonials-grid.php:45
+#: patterns/testimonials-grid.php:63
+#: patterns/testimonials-grid.php:81
+msgid "Homeowner Name"
+msgstr ""
+
+#: patterns/testimonials-grid.php:45
+msgid "Emergency Pipe Repair"
+msgstr ""
+
+#: patterns/testimonials-grid.php:60
+msgid "“Replace this placeholder quote with a customer story highlighting a same-day condensing tankless water heater conversion and spotless utility room cleanup.”"
+msgstr ""
+
+#: patterns/testimonials-grid.php:63
+msgid "Tankless Water Heater Upgrade"
+msgstr ""
+
+#: patterns/testimonials-grid.php:78
+msgid "“Replace this placeholder quote with a testimonial from a local homeowner about fiber-optic sewer camera diagnostics and thorough hydro-jetting drain clearing.”"
+msgstr ""
+
+#: patterns/testimonials-grid.php:81
+msgid "Main Sewer Camera & Hydro-Jetting"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:23
+msgid "LICENSED, BONDED & CODE-COMPLIANT"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:23
+msgid "Permit-ready installations, written workmanship warranties & flexible monthly payment options"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:29
+msgid "State Licensed (#000000)"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:32
+msgid "Fully Bonded & Insured"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:35
+msgid "Upfront Written Pricing"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:38
+msgid "Code-Compliant Permits"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:41
+msgid "Major Cards Accepted"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:44
+msgid "Monthly Payment Plans"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:50
+msgid "Want annual water heater flushing and priority dispatch? Explore our"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:50
+msgid "Home Plumbing Care Membership Plan ($19/mo equivalent)"
+msgstr ""
+
+#: patterns/trust-credentials-bar.php:50
+msgid "with annual 65-point inspection included."
+msgstr ""
+
+#: patterns/water-heater-comparison.php:25
+msgid "Water Heater Replacement Guide"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:29
+msgid "Standard Tank vs. Condensing Tankless Systems"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:33
+msgid "Compare lifespan, recovery rate, and energy efficiency side by side. Every installation includes code-required expansion tanks, seismic strapping, and haul-away of your old unit."
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Specification"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Standard Tank (40–75 Gal)"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Condensing Tankless"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Hot Water Supply"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "40–75 Gal Stored"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Continuous (Up to 11 GPM)"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Expected Lifespan"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "8 – 12 Years"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "18 – 22+ Years"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Energy Factor (UEF)"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "0.64 – 0.70 UEF"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "0.95 – 0.98 UEF"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Footprint"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Floor Closet / Garage"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:37
+msgid "Compact Wall-Mounted"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:47
+msgid "Stocked plumbing service truck ready for same-day water heater installation"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:51
+msgid "Same-Day Turnkey Replacement"
+msgstr ""
+
+#: patterns/water-heater-comparison.php:55
+msgid "Our service vehicles stock commercial-grade brass ball valves, thermal expansion tanks, stainless gas flex connectors, and condensate neutralizers for single-day completion."
+msgstr ""
+
+#: inc/setup.php:66
+msgid "Liberty Plumber: Full Page Layouts"
+msgstr ""
+
+#: inc/setup.php:67
+msgid "Complete 1-click plumbing contractor page layouts ready to customize."
+msgstr ""
+
+#: inc/setup.php:70
+msgid "Liberty Plumber: Heroes & Dispatch Banners"
+msgstr ""
+
+#: inc/setup.php:71
+msgid "High-trust plumbing hero sections and 24/7 emergency dispatch callouts."
+msgstr ""
+
+#: inc/setup.php:74
+msgid "Liberty Plumber: Services, Techs & Projects"
+msgstr ""
+
+#: inc/setup.php:75
+msgid "Plumbing service grids, technician profiles, and before/after repipe comparisons."
+msgstr ""
+
+#: inc/setup.php:78
+msgid "Liberty Plumber: Coupons, Membership & Booking"
+msgstr ""
+
+#: inc/setup.php:79
+msgid "Service specials, water heater comparisons, membership plans, FAQs, and dispatch CTAs."
+msgstr ""
+
+#: inc/setup.php:99
+msgid "Service Card"
+msgstr ""
+
+#: inc/setup.php:107
+msgid "Interactive Lift Card"
+msgstr ""
+
+#: inc/setup.php:115
+msgid "Dashed Coupon Card"
+msgstr ""
+
+#: inc/setup.php:123
+msgid "Plumbing Checkmarks"
+msgstr ""
+
+#: inc/setup.php:131
+msgid "Soft Copper Pill"
+msgstr ""
+
+#: inc/setup.php:139
+msgid "Plumbing FAQ Card"
+msgstr ""
+
+#: inc/setup.php:153
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/setup.php:172
+msgid "Content pages"
+msgstr ""
+
+#: inc/setup.php:172
+msgid "Pages:"
+msgstr ""
+
+#: inc/setup.php:237
+msgid "Plumbing & Drain Services"
+msgstr ""
+
+#: inc/setup.php:238
+msgid "Water Heaters & Tankless Systems"
+msgstr ""
+
+#: inc/setup.php:239
+msgid "Contact & 24/7 Dispatch"
+msgstr ""
+
+#: inc/setup.php:240
+msgid "24/7 Emergency Plumbing"
+msgstr ""
+

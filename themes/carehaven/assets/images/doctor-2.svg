@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680" fill="none" role="img" aria-label="Clinician portrait illustration">
+  <rect width="600" height="680" rx="22" fill="#F1EDE4"/>
+  <circle cx="300" cy="250" r="148" fill="#FFFFFF"/>
+  <circle cx="300" cy="228" r="64" fill="#9E765A"/>
+  <path d="M238 208C242 168 268 150 300 150C332 150 358 168 362 208C344 194 322 188 300 188C278 188 256 194 238 208Z" fill="#1E1B18"/>
+  <path d="M148 560C156 446 218 386 300 386C382 386 444 446 452 560H148Z" fill="#102538"/>
+  <path d="M260 390L300 474L340 390" fill="#E4F0ED"/>
+  <rect x="44" y="582" width="512" height="62" rx="14" fill="#FFFFFF"/>
+  <circle cx="80" cy="613" r="12" fill="#E4F0ED"/>
+  <path d="M75 613L79 617L86 609" stroke="#1E625B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="106" y="604" width="188" height="10" rx="5" fill="#102538" fill-opacity="0.8"/>
+  <rect x="106" y="620" width="124" height="7" rx="3.5" fill="#D5DFE7"/>
+  <rect x="468" y="601" width="62" height="24" rx="12" fill="#E4F0ED"/>
+</svg>

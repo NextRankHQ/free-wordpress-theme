@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Commercial Industrial Steel",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Crisp Steel White (Canvas)",
+					"slug": "ivory",
+					"color": "#F3F6FA"
+				},
+				{
+					"name": "Pure Surface (Card)",
+					"slug": "surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Cool Mist (Section Alt)",
+					"slug": "linen",
+					"color": "#E2E8F0"
+				},
+				{
+					"name": "Soft Cobalt Tint",
+					"slug": "copper-tint",
+					"color": "#DBEAFE"
+				},
+				{
+					"name": "Midnight Steel (Headings)",
+					"slug": "navy",
+					"color": "#091E3A"
+				},
+				{
+					"name": "Slate Ink (Body)",
+					"slug": "ink",
+					"color": "#1E293B"
+				},
+				{
+					"name": "Muted Cool Gray",
+					"slug": "slate-muted",
+					"color": "#475569"
+				},
+				{
+					"name": "Cobalt Hydro (Primary CTA)",
+					"slug": "copper",
+					"color": "#1D4ED8"
+				},
+				{
+					"name": "Deep Cobalt (Hover)",
+					"slug": "copper-hover",
+					"color": "#1E40AF"
+				},
+				{
+					"name": "Emergency Alert Red",
+					"slug": "crimson",
+					"color": "#B91C1C"
+				},
+				{
+					"name": "Hairline Border",
+					"slug": "border",
+					"color": "#CBD5E1"
+				}
+			]
+		}
+	}
+}
