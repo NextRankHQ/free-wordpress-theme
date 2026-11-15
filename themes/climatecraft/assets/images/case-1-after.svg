@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" fill="none">
+  <rect width="720" height="460" fill="#090D16"/>
+  <circle cx="360" cy="235" r="190" fill="#0284C7" fill-opacity="0.24"/>
+  <rect x="130" y="390" width="460" height="26" rx="6" fill="#64748B"/>
+  <!-- Modern Twin-Fan Side-Discharge 22-SEER2 Inverter Unit -->
+  <rect x="195" y="75" width="330" height="315" rx="14" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="4"/>
+  <rect x="195" y="75" width="330" height="30" rx="8" fill="#0284C7"/>
+  <!-- Twin Fans -->
+  <circle cx="295" cy="175" r="56" fill="#090D16" stroke="#0EA5E9" stroke-width="4"/>
+  <circle cx="295" cy="175" r="16" fill="#EA580C"/>
+  <circle cx="295" cy="305" r="56" fill="#090D16" stroke="#0EA5E9" stroke-width="4"/>
+  <circle cx="295" cy="305" r="16" fill="#EA580C"/>
+  <!-- Digital Inverter Status Matrix -->
+  <rect x="385" y="130" width="110" height="225" rx="8" fill="#0F172A"/>
+  <rect x="405" y="155" width="70" height="12" rx="6" fill="#22C55E"/>
+  <rect x="405" y="182" width="54" height="12" rx="6" fill="#38BDF8"/>
+  <rect x="405" y="209" width="70" height="12" rx="6" fill="#0EA5E9"/>
+  <circle cx="440" cy="295" r="28" stroke="#22C55E" stroke-width="5"/>
+  <path d="M428 295 L436 303 L454 285" stroke="#22C55E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

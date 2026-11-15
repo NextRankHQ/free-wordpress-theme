@@ -16,6 +16,7 @@ All themes live inside the [`themes/`](./themes) directory and are built to pass
 | :--- | :--- | :--- | :--- | :--- |
 | **Carehaven** | [`themes/carehaven`](./themes/carehaven) | Dental Clinics, Orthodontists, Medical Practices & Healthcare Providers | WordPress `6.8+` (Tested up to `7.1`) • PHP `8.0+` | **[View & Download ZIP](https://nextrankhq.com/free-wordpress-themes)** |
 | **Liberty Plumber** | [`themes/liberty-plumber`](./themes/liberty-plumber) | Plumbing Contractors, 24/7 Emergency Dispatch, Drain Cleaning, Tankless Water Heaters & Repiping | WordPress `6.8+` (Tested up to `7.1`) • PHP `8.0+` | **[View & Download ZIP](https://nextrankhq.com/free-wordpress-themes)** |
+| **ClimateCraft** | [`themes/climatecraft`](./themes/climatecraft) | HVAC Contractors, Heating & Cooling, Inverter Heat Pumps, Gas Furnaces & Indoor Air Quality | WordPress `6.8+` (Tested up to `7.1`) • PHP `8.0+` | **[View & Download ZIP](https://nextrankhq.com/free-wordpress-themes)** |
 
 ---
 
@@ -29,6 +30,11 @@ All themes live inside the [`themes/`](./themes) directory and are built to pass
 ### 2. [Liberty Plumber](./themes/liberty-plumber) — Plumbing & Home Services Block Theme
 - **Built for Local Service & 24/7 Dispatch:** Includes 17+ custom Gutenberg block patterns for emergency dispatch strips, plumbing service grids, interactive before/after copper & PEX repipe comparisons, tankless vs. tank water heater guides, annual maintenance memberships, and dashed service coupons.
 - **Global Style Variations:** Ships with Liberty Navy & Copper Default, **Copper Craft**, and **Commercial Steel** style presets.
+- **Download Ready-to-Install ZIP:** **[https://nextrankhq.com/free-wordpress-themes](https://nextrankhq.com/free-wordpress-themes)**
+
+### 3. [ClimateCraft](./themes/climatecraft) — HVAC, Heating & Cooling Block Theme
+- **Built for Seasonal HVAC & Heat Pump Conversion:** Includes 20 custom Gutenberg block patterns for 24/7 no-cool/no-heat dispatch bars, heating/cooling/IAQ service grids, interactive before/after inverter heat pump & attic ductwork retrofits, SEER2 efficiency & Federal 25C tax credit comparison tables, NATE-certified technician profiles, annual Comfort Club maintenance plans, and dashed seasonal rebate coupons.
+- **Global Style Variations:** Ships with Thermal Navy & Flame Default, **Arctic Precision**, and **Furnace Warmth** style presets.
 - **Download Ready-to-Install ZIP:** **[https://nextrankhq.com/free-wordpress-themes](https://nextrankhq.com/free-wordpress-themes)**
 
 ---
@@ -54,7 +60,7 @@ All themes live inside the [`themes/`](./themes) directory and are built to pass
    ```bash
    git clone https://github.com/NextRankHQ/free-wordpress-theme.git
    ```
-2. Copy any theme folder from `themes/<theme-slug>` (for example, `themes/liberty-plumber` or `themes/carehaven`) into your WordPress installation's `wp-content/themes/` directory.
+2. Copy any theme folder from `themes/<theme-slug>` (for example, `themes/climatecraft`, `themes/liberty-plumber`, or `themes/carehaven`) into your WordPress installation's `wp-content/themes/` directory.
 3. Activate the theme in **Appearance → Themes**.
 
 ---

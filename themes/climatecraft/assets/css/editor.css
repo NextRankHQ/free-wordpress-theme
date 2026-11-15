@@ -1,0 +1,163 @@
+/* ==========================================================================
+   ClimateCraft — Gutenberg Block Editor Parity Styles
+   ========================================================================== */
+
+.editor-styles-wrapper .has-border-color:not(.has-text-color) {
+	color: var(--wp--preset--color--ink) !important;
+}
+
+.editor-styles-wrapper .is-style-climatecraft-card,
+.editor-styles-wrapper .is-style-climatecraft-card-interactive {
+	background-color: var(--wp--preset--color--surface);
+	color: var(--wp--preset--color--ink);
+	border: 1px solid var(--wp--preset--color--border);
+	border-radius: 16px;
+}
+
+.editor-styles-wrapper .is-style-climatecraft-coupon {
+	background-color: var(--wp--preset--color--surface);
+	border: 2px dashed var(--wp--preset--color--copper);
+	border-radius: 16px;
+}
+
+.editor-styles-wrapper .climatecraft-ba__range {
+	pointer-events: none;
+}
+
+
+/* ClimateCraft Distinct Architectural Dual-Tone Card & Dark Header Styling */
+.wp-block-group.is-style-climatecraft-card,
+.wp-block-group.is-style-climatecraft-card-interactive {
+	border-radius: 12px !important;
+	border-top: 4px solid var(--wp--preset--color--copper) !important;
+	box-shadow: 0 14px 34px -10px rgba(9, 13, 22, 0.09) !important;
+}
+
+.wp-block-group.is-style-climatecraft-card-interactive:hover {
+	border-top-color: var(--wp--preset--color--brass) !important;
+	transform: translateY(-5px);
+}
+
+.climatecraft-nav-bar.has-navy-background-color .wp-block-navigation .wp-block-navigation-item__content,
+.climatecraft-nav-bar.has-navy-background-color .wp-block-site-title a {
+	color: #FFFFFF !important;
+}
+
+.climatecraft-nav-bar.has-navy-background-color .wp-block-navigation .wp-block-navigation-item__content:hover {
+	color: #38BDF8 !important;
+}
+
+.climatecraft-eyebrow {
+	border-radius: 6px !important;
+	letter-spacing: 0.08em !important;
+	text-transform: uppercase;
+}
+
+
+/* ClimateCraft Command Header & 3-Tier Architectural Footer Overrides */
+.climatecraft-nav-bar {
+	border-bottom: 2px solid transparent !important;
+	border-image: linear-gradient(90deg, #0284C7 0%, #38BDF8 50%, #C2410C 100%) 1 !important;
+	box-shadow: 0 12px 32px -12px rgba(5, 8, 17, 0.55);
+}
+
+.climatecraft-nav-capsule .wp-block-navigation .wp-block-navigation-item__content {
+	padding: 0.42rem 0.85rem !important;
+	border-radius: 8px !important;
+	color: #E2E8F0 !important;
+	font-weight: 600 !important;
+	transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+.climatecraft-nav-capsule .wp-block-navigation .wp-block-navigation-item__content:hover,
+.climatecraft-nav-capsule .wp-block-navigation .current-menu-item > .wp-block-navigation-item__content {
+	background-color: #1E293B !important;
+	color: #38BDF8 !important;
+}
+
+.climatecraft-site-footer a:not(.wp-block-button__link):not(.wp-block-social-link-anchor) {
+	color: #CBD5E1 !important;
+	text-decoration: none !important;
+	transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.climatecraft-site-footer a:not(.wp-block-button__link):not(.wp-block-social-link-anchor):hover {
+	color: #38BDF8 !important;
+	text-decoration: underline !important;
+}
+
+.climatecraft-site-footer .wp-block-social-links.climatecraft-social-links .wp-block-social-link {
+	background-color: #111827 !important;
+	border: 1px solid #1E293B !important;
+	border-radius: 10px !important;
+}
+
+.climatecraft-site-footer .wp-block-social-links.climatecraft-social-links .wp-block-social-link:hover {
+	background-color: #0284C7 !important;
+	border-color: #38BDF8 !important;
+	transform: translateY(-3px);
+}
+
+
+/* Clean Flat Architectural Top Navigation with Bottom Indicator Bar */
+.climatecraft-nav-bar {
+	background-color: #FFFFFF !important;
+	border-bottom: 3px solid transparent !important;
+	border-image: linear-gradient(90deg, #0284C7 0%, #38BDF8 50%, #C2410C 100%) 1 !important;
+	box-shadow: 0 8px 24px -10px rgba(9, 13, 22, 0.08) !important;
+}
+
+.climatecraft-nav-bar .climatecraft-brand .wp-block-site-title a {
+	color: #090D16 !important;
+	text-decoration: none !important;
+	font-weight: 800 !important;
+	letter-spacing: -0.02em;
+}
+
+.climatecraft-nav-bar .wp-block-navigation__container,
+.climatecraft-nav-bar .wp-block-navigation .wp-block-page-list {
+	gap: 0.35rem !important;
+	align-items: center;
+}
+
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content {
+	position: relative !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	padding: 0.5rem 0.9rem !important;
+	border-radius: 8px !important;
+	font-size: 0.94rem !important;
+	font-weight: 700 !important;
+	color: #090D16 !important;
+	background: transparent !important;
+	text-decoration: none !important;
+	box-shadow: none !important;
+	transition: color 0.18s ease, background-color 0.18s ease !important;
+}
+
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content::after {
+	content: "";
+	position: absolute;
+	left: 0.9rem;
+	right: 0.9rem;
+	bottom: 0.2rem;
+	height: 2.5px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, #0284C7, #C2410C);
+	transform: scaleX(0);
+	transform-origin: left center;
+	transition: transform 0.2s ease;
+}
+
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content:hover,
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content,
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content[aria-current="page"] {
+	color: #0284C7 !important;
+	background-color: #F1F5F9 !important;
+}
+
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content:hover::after,
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after,
+.climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content[aria-current="page"]::after {
+	transform: scaleX(1);
+}

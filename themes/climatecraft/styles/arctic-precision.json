@@ -1,0 +1,71 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Arctic Precision",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Crisp Frost Canvas",
+					"slug": "ivory",
+					"color": "#F8FAFC"
+				},
+				{
+					"name": "Chilled Duct Slate",
+					"slug": "linen",
+					"color": "#F1F5F9"
+				},
+				{
+					"name": "Pure White Surface",
+					"slug": "surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Deep Chiller Ink",
+					"slug": "ink",
+					"color": "#0F172A"
+				},
+				{
+					"name": "Muted Mechanical Slate",
+					"slug": "slate-muted",
+					"color": "#475569"
+				},
+				{
+					"name": "Commercial Chiller Navy",
+					"slug": "navy",
+					"color": "#0F172A"
+				},
+				{
+					"name": "Arctic Cooling Cyan",
+					"slug": "copper",
+					"color": "#0369A1"
+				},
+				{
+					"name": "Deep Subzero Blue",
+					"slug": "copper-dark",
+					"color": "#075985"
+				},
+				{
+					"name": "Cool Air Mist Tint",
+					"slug": "copper-tint",
+					"color": "#E0F2FE"
+				},
+				{
+					"name": "Furnace Amber Accent",
+					"slug": "brass",
+					"color": "#B45309"
+				},
+				{
+					"name": "Soft Amber Tint",
+					"slug": "brass-tint",
+					"color": "#FEF3C7"
+				},
+				{
+					"name": "Structural Card Hairline",
+					"slug": "border",
+					"color": "#CBD5E1"
+				}
+			]
+		}
+	}
+}

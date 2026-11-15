@@ -1,0 +1,71 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Furnace Warmth",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Warm Hearth Ivory",
+					"slug": "ivory",
+					"color": "#FAF8F5"
+				},
+				{
+					"name": "Sandstone Linen",
+					"slug": "linen",
+					"color": "#F3EDE4"
+				},
+				{
+					"name": "Pure White Surface",
+					"slug": "surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Cast Iron Charcoal",
+					"slug": "ink",
+					"color": "#1C1917"
+				},
+				{
+					"name": "Warm Stone Muted",
+					"slug": "slate-muted",
+					"color": "#57534E"
+				},
+				{
+					"name": "Hydronic Espresso Navy",
+					"slug": "navy",
+					"color": "#1E293B"
+				},
+				{
+					"name": "Radiant Hearth Copper",
+					"slug": "copper",
+					"color": "#B45309"
+				},
+				{
+					"name": "Deep Forge Copper",
+					"slug": "copper-dark",
+					"color": "#92400E"
+				},
+				{
+					"name": "Soft Hearth Glow",
+					"slug": "copper-tint",
+					"color": "#FEF3C7"
+				},
+				{
+					"name": "Burner Crimson",
+					"slug": "brass",
+					"color": "#B91C1C"
+				},
+				{
+					"name": "Soft Flame Tint",
+					"slug": "brass-tint",
+					"color": "#FEE2E2"
+				},
+				{
+					"name": "Warm Border Stone",
+					"slug": "border",
+					"color": "#D6D3D1"
+				}
+			]
+		}
+	}
+}

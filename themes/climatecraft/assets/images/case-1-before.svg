@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" fill="none">
+  <rect width="720" height="460" fill="#18181B"/>
+  <!-- Thermal Heat Plume Glow (Showing wasted heat / overworked compressor) -->
+  <circle cx="360" cy="240" r="185" fill="#DC2626" fill-opacity="0.28"/>
+  <circle cx="360" cy="240" r="120" fill="#EA580C" fill-opacity="0.35"/>
+  <rect x="130" y="390" width="460" height="26" rx="4" fill="#52525B"/>
+  <!-- Old Boxy Single-Stage Condenser -->
+  <rect x="220" y="130" width="280" height="260" rx="6" fill="#52525B" stroke="#EF4444" stroke-width="5"/>
+  <g stroke="#27272A" stroke-width="5">
+    <line x1="245" y1="170" x2="475" y2="182"/>
+    <line x1="245" y1="205" x2="475" y2="198"/>
+    <line x1="245" y1="240" x2="475" y2="252"/>
+    <line x1="245" y1="275" x2="475" y2="268"/>
+    <line x1="245" y1="310" x2="475" y2="322"/>
+    <line x1="245" y1="345" x2="475" y2="338"/>
+  </g>
+  <!-- Acoustic Noise Waves -->
+  <path d="M165 180 Q135 240 165 300" stroke="#EF4444" stroke-width="6" stroke-linecap="round"/>
+  <path d="M135 155 Q95 240 135 325" stroke="#EF4444" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 8"/>
+  <path d="M555 180 Q585 240 555 300" stroke="#EF4444" stroke-width="6" stroke-linecap="round"/>
+</svg>
