@@ -32,9 +32,9 @@ All themes live inside the [`themes/`](./themes) directory and are built to pass
 - **Global Style Variations:** Ships with Liberty Navy & Copper Default, **Copper Craft**, and **Commercial Steel** style presets.
 - **Download Ready-to-Install ZIP:** **[https://nextrankhq.com/free-wordpress-themes](https://nextrankhq.com/free-wordpress-themes)**
 
-### 3. [ClimateCraft](./themes/climatecraft) — HVAC, Heating & Cooling Block Theme
-- **Built for Seasonal HVAC & Heat Pump Conversion:** Includes 20 custom Gutenberg block patterns for 24/7 no-cool/no-heat dispatch bars, heating/cooling/IAQ service grids, interactive before/after inverter heat pump & attic ductwork retrofits, SEER2 efficiency & Federal 25C tax credit comparison tables, NATE-certified technician profiles, annual Comfort Club maintenance plans, and dashed seasonal rebate coupons.
-- **Global Style Variations:** Ships with Thermal Navy & Flame Default, **Arctic Precision**, and **Furnace Warmth** style presets.
+### 3. [ClimateCraft](./themes/climatecraft) — HVAC, Heating, Cooling & Indoor Air Quality Block Theme
+- **Built for Seasonal HVAC & Heat Pump Conversion:** Includes 20 custom Gutenberg block patterns featuring a Split-Stage Architectural Climate Hero with dual-season cooling/heating mode cards and live inverter telemetry showcase, a flat architectural navigation bar with dual-tone thermal indicators, a Split-Stage Command Footer with a live dispatch schedule board and Federal 25C rebate deck, interactive before/after inverter heat pump & attic ductwork retrofits, SEER2 efficiency comparison tables, NATE-certified technician profiles, annual Comfort Club maintenance plans, and dashed seasonal rebate coupons.
+- **Global Style Variations:** Ships with Obsidian, Arctic Cyan & Thermal Copper Default, **Arctic Precision**, and **Furnace Warmth** style presets.
 - **Download Ready-to-Install ZIP:** **[https://nextrankhq.com/free-wordpress-themes](https://nextrankhq.com/free-wordpress-themes)**
 
 ---

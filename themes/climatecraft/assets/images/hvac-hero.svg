@@ -1,108 +1,190 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 640" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 620" fill="none">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="840" y2="640" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0B1120"/>
-      <stop offset="55%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#1E293B"/>
+    <linearGradient id="heroCardBg" x1="0" y1="0" x2="840" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#111C35"/>
+      <stop offset="100%" stop-color="#1E1B2E"/>
     </linearGradient>
-    <linearGradient id="coolFlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0EA5E9"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2"/>
+    <linearGradient id="cyanArc" x1="120" y1="80" x2="520" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
-    <linearGradient id="warmFlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EA580C"/>
-      <stop offset="100%" stop-color="#FB923C" stop-opacity="0.2"/>
+    <linearGradient id="emberArc" x1="380" y1="120" x2="760" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#C2410C"/>
     </linearGradient>
+    <linearGradient id="cabinetMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="darkGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <radialGradient id="coolGlow" cx="32%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warmGlow" cx="74%" cy="58%" r="45%">
+      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#C2410C" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="840" height="640" rx="20" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
-  <!-- Subtle technical blueprint grid -->
-  <g stroke="#1E293B" stroke-width="1">
-    <line x1="0" y1="120" x2="840" y2="120"/>
-    <line x1="0" y1="240" x2="840" y2="240"/>
-    <line x1="0" y1="360" x2="840" y2="360"/>
-    <line x1="0" y1="480" x2="840" y2="480"/>
-    <line x1="160" y1="0" x2="160" y2="640"/>
-    <line x1="320" y1="0" x2="320" y2="640"/>
-    <line x1="480" y1="0" x2="480" y2="640"/>
-    <line x1="640" y1="0" x2="640" y2="640"/>
+
+  <!-- Outer Showcase Surface -->
+  <rect width="840" height="620" rx="22" fill="url(#heroCardBg)"/>
+  <rect x="2" y="2" width="836" height="616" rx="20" stroke="#334155" stroke-width="2"/>
+
+  <!-- Ambient Dual Thermal Glows -->
+  <circle cx="270" cy="260" r="250" fill="url(#coolGlow)"/>
+  <circle cx="620" cy="360" r="240" fill="url(#warmGlow)"/>
+
+  <!-- Subtle Engineering Blueprint Grid -->
+  <g stroke="#334155" stroke-opacity="0.32" stroke-width="1">
+    <line x1="0" y1="100" x2="840" y2="100"/>
+    <line x1="0" y1="200" x2="840" y2="200"/>
+    <line x1="0" y1="300" x2="840" y2="300"/>
+    <line x1="0" y1="400" x2="840" y2="400"/>
+    <line x1="0" y1="500" x2="840" y2="500"/>
+    <line x1="140" y1="0" x2="140" y2="620"/>
+    <line x1="280" y1="0" x2="280" y2="620"/>
+    <line x1="420" y1="0" x2="420" y2="620"/>
+    <line x1="560" y1="0" x2="560" y2="620"/>
+    <line x1="700" y1="0" x2="700" y2="620"/>
   </g>
-  <!-- Glow Orbs -->
-  <circle cx="670" cy="150" r="160" fill="#0284C7" fill-opacity="0.2"/>
-  <circle cx="210" cy="490" r="180" fill="#EA580C" fill-opacity="0.16"/>
 
-  <!-- Modern Architectural Home Cutaway Silhouette (Left/Center) -->
-  <path d="M70 215 L315 75 L560 215 V545 H70 V215 Z" fill="#0F172A" stroke="#38BDF8" stroke-width="3"/>
-  <!-- Roofline & Floors -->
-  <path d="M52 225 L315 68 L578 225" stroke="#0EA5E9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="70" y1="365" x2="560" y2="365" stroke="#334155" stroke-width="4"/>
-  <line x1="70" y1="220" x2="560" y2="220" stroke="#334155" stroke-width="3" stroke-dasharray="8 6"/>
-  <line x1="315" y1="220" x2="315" y2="545" stroke="#334155" stroke-width="3"/>
+  <!-- Elevated Architectural Platform Base -->
+  <path d="M70 500 L770 500 L800 548 L40 548 Z" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+  <rect x="40" y="548" width="760" height="14" rx="6" fill="#090D16" stroke="#334155" stroke-width="1.5"/>
 
-  <!-- Attic Air Handler & Sealed Trunk Ductwork -->
-  <rect x="255" y="135" width="120" height="62" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="3"/>
-  <rect x="275" y="150" width="35" height="32" rx="4" fill="#0284C7"/>
-  <rect x="320" y="150" width="35" height="32" rx="4" fill="#EA580C"/>
-  <!-- Supply Branches to Rooms -->
-  <path d="M255 166 H165 V255" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M375 166 H465 V255" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M165 255 V405" stroke="#FB923C" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 0"/>
-  <path d="M465 255 V405" stroke="#FB923C" stroke-width="8" stroke-linecap="round"/>
+  <!-- LEFT MODULE: HIGH-EFFICIENCY INVERTER HEAT PUMP CONDENSER UNIT (BRIGHT METALLIC) -->
+  <g transform="translate(76, 136)">
+    <!-- Unit Shadow -->
+    <rect x="10" y="14" width="320" height="364" rx="20" fill="#050811" fill-opacity="0.55"/>
+    <!-- Metallic Chassis -->
+    <rect x="0" y="0" width="320" height="364" rx="18" fill="url(#cabinetMetal)" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Top Architectural Cap -->
+    <path d="M0 18 C0 8 8 0 18 0 L302 0 C312 0 320 8 320 18 L320 34 L0 34 Z" fill="#0F172A"/>
+    <rect x="22" y="12" width="84" height="10" rx="5" fill="#38BDF8"/>
+    <rect x="116" y="12" width="46" height="10" rx="5" fill="#4ADE80"/>
+    <circle cx="292" cy="17" r="6" fill="#FB923C"/>
 
-  <!-- Upstairs Wall-Mounted Ductless Mini-Split Cassette (Left Room) -->
-  <rect x="105" y="248" width="120" height="32" rx="6" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="2"/>
-  <path d="M118 292 Q165 318 212 292" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
-  <path d="M108 310 Q165 342 222 310" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 6"/>
+    <!-- Variable-Speed Axial Inverter Fan Housing (Left) -->
+    <circle cx="118" cy="152" r="88" fill="#090D16" stroke="#475569" stroke-width="5"/>
+    <circle cx="118" cy="152" r="76" fill="none" stroke="#0284C7" stroke-width="2.5" stroke-dasharray="10 6"/>
+    <circle cx="118" cy="152" r="62" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- Swept Aerodynamic Inverter Blades -->
+    <path d="M118 152 C102 104, 138 78, 162 94 C152 122, 136 140, 118 152 Z" fill="url(#cyanArc)"/>
+    <path d="M118 152 C166 136, 192 172, 176 196 C148 186, 130 170, 118 152 Z" fill="url(#cyanArc)"/>
+    <path d="M118 152 C134 200, 98 226, 74 210 C84 182, 100 164, 118 152 Z" fill="url(#cyanArc)"/>
+    <path d="M118 152 C70 168, 44 132, 60 108 C88 118, 106 134, 118 152 Z" fill="url(#cyanArc)"/>
+    <circle cx="118" cy="152" r="20" fill="#1E293B" stroke="#38BDF8" stroke-width="3.5"/>
+    <circle cx="118" cy="152" r="7" fill="#38BDF8"/>
 
-  <!-- Upstairs Smart Air Quality Sensor (Right Room) -->
-  <rect x="395" y="248" width="120" height="32" rx="6" fill="#F8FAFC" stroke="#0EA5E9" stroke-width="2"/>
-  <path d="M408 292 Q455 318 502 292" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Protective Fan Louver Grille -->
+    <line x1="34" y1="122" x2="202" y2="122" stroke="#94A3B8" stroke-width="2" stroke-opacity="0.5"/>
+    <line x1="30" y1="152" x2="206" y2="152" stroke="#94A3B8" stroke-width="2" stroke-opacity="0.5"/>
+    <line x1="34" y1="182" x2="202" y2="182" stroke="#94A3B8" stroke-width="2" stroke-opacity="0.5"/>
 
-  <!-- Downstairs Warm Radiant / Hydronic & Airflow Zone (Left Lower Room) -->
-  <path d="M105 495 Q135 465 165 495 T225 495 T285 495" stroke="#FB923C" stroke-width="4" stroke-linecap="round"/>
-  <path d="M105 515 Q135 485 165 515 T225 515 T285 515" stroke="#EA580C" stroke-width="4" stroke-linecap="round"/>
+    <!-- Bottom Dual-Stage Fan / Coil Window -->
+    <rect x="32" y="258" width="172" height="78" rx="12" fill="#0F172A" stroke="#64748B" stroke-width="2"/>
+    <!-- Glowing Cyan & Copper Fin Coils -->
+    <g stroke-width="3" stroke-linecap="round">
+      <line x1="48" y1="274" x2="188" y2="274" stroke="#38BDF8"/>
+      <line x1="48" y1="288" x2="188" y2="288" stroke="#0284C7"/>
+      <line x1="48" y1="302" x2="188" y2="302" stroke="#FB923C"/>
+      <line x1="48" y1="316" x2="188" y2="316" stroke="#C2410C"/>
+    </g>
 
-  <!-- Downstairs Mechanical Closet: Modulating Furnace + HEPA Air Cleaner (Right Lower Room) -->
-  <rect x="395" y="395" width="90" height="130" rx="8" fill="#E2E8F0" stroke="#94A3B8" stroke-width="3"/>
-  <rect x="408" y="412" width="64" height="36" rx="4" fill="#0F172A"/>
-  <!-- Burner flames -->
-  <circle cx="424" cy="430" r="6" fill="#EA580C"/>
-  <circle cx="440" cy="430" r="6" fill="#FB923C"/>
-  <circle cx="456" cy="430" r="6" fill="#EA580C"/>
-  <rect x="408" y="460" width="64" height="48" rx="4" fill="#0284C7"/>
+    <!-- Right Internal Inverter Compressor & Copper Manifold Cutaway Bay -->
+    <rect x="220" y="54" width="80" height="282" rx="12" fill="#090D16" stroke="#475569" stroke-width="2"/>
+    <!-- Inverter Control Board -->
+    <rect x="232" y="68" width="56" height="64" rx="7" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="246" cy="84" r="4" fill="#4ADE80"/>
+    <circle cx="260" cy="84" r="4" fill="#38BDF8"/>
+    <circle cx="274" cy="84" r="4" fill="#FB923C"/>
+    <rect x="240" y="98" width="40" height="6" rx="3" fill="#38BDF8"/>
+    <rect x="240" y="110" width="28" height="6" rx="3" fill="#64748B"/>
 
-  <!-- Exterior Twin-Fan Variable-Speed Inverter Heat Pump Tower (Right Side) -->
-  <rect x="595" y="535" width="195" height="18" rx="5" fill="#64748B"/>
-  <rect x="610" y="255" width="165" height="280" rx="14" fill="#F8FAFC" stroke="#94A3B8" stroke-width="4"/>
-  <rect x="610" y="255" width="165" height="28" rx="8" fill="#0284C7"/>
-  <!-- Top Inverter Fan -->
-  <circle cx="692" cy="340" r="48" fill="#0F172A" stroke="#334155" stroke-width="4"/>
-  <path d="M692 340 C680 308 704 296 714 312 Z" fill="#38BDF8"/>
-  <path d="M692 340 C724 328 736 352 720 362 Z" fill="#38BDF8"/>
-  <path d="M692 340 C704 372 680 384 670 368 Z" fill="#38BDF8"/>
-  <path d="M692 340 C660 352 648 328 664 318 Z" fill="#38BDF8"/>
-  <circle cx="692" cy="340" r="11" fill="#EA580C" stroke="#FFFFFF" stroke-width="2"/>
-  <!-- Bottom Inverter Fan -->
-  <circle cx="692" cy="458" r="48" fill="#0F172A" stroke="#334155" stroke-width="4"/>
-  <path d="M692 458 C680 426 704 414 714 430 Z" fill="#38BDF8"/>
-  <path d="M692 458 C724 446 736 470 720 480 Z" fill="#38BDF8"/>
-  <path d="M692 458 C704 490 680 502 670 486 Z" fill="#38BDF8"/>
-  <path d="M692 458 C660 470 648 446 664 436 Z" fill="#38BDF8"/>
-  <circle cx="692" cy="458" r="11" fill="#EA580C" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Copper Refrigerant Coil Loop -->
+    <path d="M242 152 H278 M242 168 H278 M242 184 H278 M242 200 H278" stroke="#FB923C" stroke-width="4" stroke-linecap="round"/>
+    <!-- Variable-Speed Scroll Compressor Cylinder -->
+    <rect x="236" y="222" width="48" height="96" rx="18" fill="#1E293B" stroke="#FB923C" stroke-width="2.5"/>
+    <circle cx="260" cy="256" r="11" fill="#090D16" stroke="#38BDF8" stroke-width="2.5"/>
+    <path d="M248 292 H272" stroke="#4ADE80" stroke-width="4" stroke-linecap="round"/>
+  </g>
 
-  <!-- Insulated Refrigerant Lineset Connecting Heat Pump to Home -->
-  <path d="M560 495 H610" stroke="#EA580C" stroke-width="10"/>
-  <path d="M560 512 H610" stroke="#0EA5E9" stroke-width="8"/>
+  <!-- INSULATED COPPER & SUCTION REFRIGERANT LINESETS CONNECTING TO SMART CONTROL HUB -->
+  <path d="M396 380 H478 C502 380 512 365 512 342 V285" stroke="url(#emberArc)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M396 404 H498 C524 404 538 386 538 358 V285" stroke="url(#cyanArc)" stroke-width="9" stroke-linecap="round"/>
+  <!-- Brass Service Valves -->
+  <circle cx="436" cy="380" r="8" fill="#FBBF24" stroke="#090D16" stroke-width="2.5"/>
+  <circle cx="464" cy="404" r="8" fill="#38BDF8" stroke="#090D16" stroke-width="2.5"/>
 
-  <!-- Floating Glass Smart Climate Controller Widget (Top Right) -->
-  <rect x="555" y="55" width="235" height="165" rx="18" fill="#0F172A" stroke="#38BDF8" stroke-width="2.5"/>
-  <circle cx="632" cy="138" r="52" fill="#090D16" stroke="#0EA5E9" stroke-width="6"/>
-  <path d="M596 168 A46 46 0 1 1 668 168" stroke="#EA580C" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="632" cy="138" r="24" fill="#0284C7"/>
-  <!-- Snowflake + Flame symbol -->
-  <path d="M632 124 V152 M618 138 H646" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-  <!-- Status Pills on Right of Dial -->
-  <rect x="704" y="88" width="64" height="14" rx="7" fill="#22C55E"/>
-  <rect x="704" y="114" width="52" height="14" rx="7" fill="#38BDF8"/>
-  <rect x="704" y="140" width="64" height="14" rx="7" fill="#EA580C"/>
-  <rect x="704" y="166" width="44" height="14" rx="7" fill="#64748B"/>
+  <!-- RIGHT MODULE: ARCHITECTURAL SMART CLIMATE DIAL & MODULATING AIR HANDLER -->
+  <g transform="translate(468, 78)">
+    <!-- Smart Climate Control Glass Card -->
+    <rect x="0" y="0" width="300" height="296" rx="24" fill="url(#darkGlass)" stroke="#475569" stroke-width="2.5"/>
+    <!-- Top Highlight Bar -->
+    <path d="M24 2 H276" stroke="url(#cyanArc)" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Outer Dual-Zone Thermal Ring (Cyan Cooling to Ember Heating) -->
+    <circle cx="150" cy="148" r="104" fill="#090D16" stroke="#1E293B" stroke-width="14"/>
+    <path d="M68 212 A104 104 0 1 1 232 212" stroke="url(#cyanArc)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M150 44 A104 104 0 0 1 232 212" stroke="url(#emberArc)" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Precision Dial Tick Marks -->
+    <g stroke="#64748B" stroke-width="2" stroke-linecap="round">
+      <line x1="150" y1="62" x2="150" y2="72"/>
+      <line x1="212" y1="86" x2="204" y2="94"/>
+      <line x1="236" y1="148" x2="226" y2="148"/>
+      <line x1="64" y1="148" x2="74" y2="148"/>
+      <line x1="88" y1="86" x2="96" y2="94"/>
+    </g>
+
+    <!-- Inner Glass Thermostat Core -->
+    <circle cx="150" cy="148" r="70" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+
+    <!-- Geometric Snowflake + Flame Dual-Season Emblem (100% Vector, Zero Text) -->
+    <!-- Left Cool Crystal -->
+    <g stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round">
+      <line x1="124" y1="118" x2="124" y2="162"/>
+      <line x1="104" y1="140" x2="144" y2="140"/>
+      <line x1="110" y1="126" x2="138" y2="154"/>
+      <line x1="138" y1="126" x2="110" y2="154"/>
+    </g>
+    <!-- Right Thermal Flame -->
+    <path d="M178 114 C178 114 202 132 198 154 C195 168 184 176 172 176 C160 176 152 166 154 152 C156 142 166 138 166 128 C166 128 174 134 176 142 C180 132 178 114 178 114 Z" fill="url(#emberArc)"/>
+
+    <!-- Bottom Humidity & Airflow Telemetry Bars Inside Dial -->
+    <rect x="112" y="188" width="76" height="8" rx="4" fill="#1E293B"/>
+    <rect x="112" y="188" width="54" height="8" rx="4" fill="#4ADE80"/>
+
+    <!-- Active Setpoint Indicator Dot on Ring -->
+    <circle cx="218" cy="96" r="10" fill="#FFFFFF" stroke="#FB923C" stroke-width="4"/>
+
+    <!-- Status Pills at Bottom of Smart Card -->
+    <rect x="26" y="252" width="116" height="22" rx="11" fill="#0C2D48" stroke="#0284C7" stroke-width="1.5"/>
+    <circle cx="42" cy="263" r="5" fill="#38BDF8"/>
+    <rect x="54" y="259" width="72" height="8" rx="4" fill="#38BDF8"/>
+
+    <rect x="158" y="252" width="116" height="22" rx="11" fill="#2A1612" stroke="#C2410C" stroke-width="1.5"/>
+    <circle cx="174" cy="263" r="5" fill="#FB923C"/>
+    <rect x="186" y="259" width="72" height="8" rx="4" fill="#FB923C"/>
+  </g>
+
+  <!-- BOTTOM RIGHT: LAMINAR AIRFLOW & HEPA FILTRATION DUCT MODULE -->
+  <g transform="translate(468, 396)">
+    <rect x="0" y="0" width="300" height="104" rx="16" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+    <!-- Pleated MERV-16 HEPA Filter Matrix -->
+    <path d="M24 20 L40 84 L56 20 L72 84 L88 20 L104 84 L120 20" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- UV-C Germicidal Lamp Glow -->
+    <circle cx="152" cy="52" r="18" fill="#0284C7" fill-opacity="0.28" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="152" cy="52" r="7" fill="#38BDF8"/>
+    <!-- Laminar Clean Airflow Waves -->
+    <path d="M188 34 C208 24, 228 44, 248 34 C260 28, 270 32, 280 34" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M188 52 C208 42, 228 62, 248 52 C260 46, 270 50, 280 52" stroke="#4ADE80" stroke-width="4" stroke-linecap="round"/>
+    <path d="M188 70 C208 60, 228 80, 248 70 C260 64, 270 68, 280 70" stroke="#FB923C" stroke-width="4" stroke-linecap="round"/>
+  </g>
 </svg>

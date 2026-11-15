@@ -333,7 +333,10 @@ header.wp-block-template-part.is-scrolled .libertyplumber-nav-bar {
    ========================================================================== */
 
 /* Prevent WordPress core .has-border-color utility class from colliding with 'border' color slug */
-.has-border-color:not(.has-text-color) {
+.has-border-color:not(.has-text-color):not(.has-navy-background-color),
+.wp-block-group.is-style-libertyplumber-card.has-border-color,
+.wp-block-group.is-style-libertyplumber-card.has-border-color p:not(.has-copper-color):not(.has-slate-muted-color),
+.wp-block-group.is-style-libertyplumber-card.has-border-color h3 {
 	color: var(--wp--preset--color--ink) !important;
 }
 

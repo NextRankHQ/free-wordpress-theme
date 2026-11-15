@@ -235,6 +235,8 @@ header.wp-block-template-part.is-scrolled .climatecraft-nav-bar {
 	margin: 0 !important;
 	padding: 0 !important;
 	background: transparent !important;
+	border: none !important;
+	border-radius: 10px !important;
 }
 
 .climatecraft-site-footer .wp-block-social-links .wp-block-social-link-anchor,
@@ -242,12 +244,12 @@ header.wp-block-template-part.is-scrolled .climatecraft-nav-bar {
 	display: inline-flex !important;
 	align-items: center;
 	justify-content: center;
-	width: 40px;
-	height: 40px;
+	width: 42px;
+	height: 42px;
 	padding: 0 !important;
-	border-radius: 50%;
-	background-color: rgba(255, 255, 255, 0.1) !important;
-	border: 1px solid rgba(255, 255, 255, 0.22);
+	border-radius: 10px !important;
+	background-color: #111827 !important;
+	border: 1px solid #1E293B !important;
 	color: #FFFFFF !important;
 	text-decoration: none !important;
 	transition: background-color var(--lp-transition), border-color var(--lp-transition), transform var(--lp-transition), color var(--lp-transition);
@@ -333,8 +335,13 @@ header.wp-block-template-part.is-scrolled .climatecraft-nav-bar {
    ========================================================================== */
 
 /* Prevent WordPress core .has-border-color utility class from colliding with 'border' color slug */
-.has-border-color:not(.has-text-color) {
-	color: var(--wp--preset--color--ink) !important;
+.has-border-color:not(.has-text-color):not(.has-navy-background-color) {
+	color: var(--wp--preset--color--ink);
+}
+
+.has-navy-background-color .has-border-color:not(.is-style-climatecraft-card):not(.is-style-climatecraft-card-interactive):not(.has-surface-background-color),
+.climatecraft-site-footer .has-border-color:not(.is-style-climatecraft-card):not(.has-surface-background-color) {
+	color: #F8FAFC !important;
 }
 
 .is-style-climatecraft-card {
@@ -1089,14 +1096,21 @@ sub {
 }
 
 .climatecraft-site-footer .wp-block-social-links.climatecraft-social-links .wp-block-social-link {
+	background: transparent !important;
+	border: none !important;
+	border-radius: 10px !important;
+}
+
+.climatecraft-site-footer .wp-block-social-links.climatecraft-social-links .wp-block-social-link-anchor {
 	background-color: #111827 !important;
 	border: 1px solid #1E293B !important;
 	border-radius: 10px !important;
 }
 
-.climatecraft-site-footer .wp-block-social-links.climatecraft-social-links .wp-block-social-link:hover {
+.climatecraft-site-footer .wp-block-social-links.climatecraft-social-links .wp-block-social-link-anchor:hover {
 	background-color: #0284C7 !important;
 	border-color: #38BDF8 !important;
+	border-radius: 10px !important;
 	transform: translateY(-3px);
 }
 
@@ -1162,4 +1176,141 @@ sub {
 .climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after,
 .climatecraft-nav-bar .wp-block-navigation .wp-block-navigation-item__content[aria-current="page"]::after {
 	transform: scaleX(1);
+}
+
+/* Featured Dual-Season Comfort Plan & Footer Hours High-Contrast Styling */
+.wp-block-group.climatecraft-featured-plan {
+	background-color: #FFFFFF !important;
+	color: #090D16 !important;
+	border: 2px solid var(--wp--preset--color--brass) !important;
+	border-top: 5px solid var(--wp--preset--color--brass) !important;
+	box-shadow: 0 18px 40px -12px rgba(2, 132, 199, 0.18) !important;
+}
+
+.wp-block-group.is-style-climatecraft-card h3,
+.wp-block-group.climatecraft-featured-plan h3,
+.wp-block-group.is-style-climatecraft-card p:not(.climatecraft-eyebrow):not(.has-slate-muted-color),
+.wp-block-group.climatecraft-featured-plan p:not(.climatecraft-eyebrow):not(.has-slate-muted-color),
+.wp-block-group.is-style-climatecraft-card ul.is-style-climatecraft-checks > li,
+.wp-block-group.climatecraft-featured-plan ul.is-style-climatecraft-checks > li {
+	color: #090D16 !important;
+}
+
+.climatecraft-site-footer .climatecraft-hours-block,
+.climatecraft-site-footer .climatecraft-hours-block table,
+.climatecraft-site-footer .climatecraft-hours-block tbody,
+.climatecraft-site-footer .climatecraft-hours-block tr,
+.climatecraft-site-footer .climatecraft-hours-block td {
+	color: #F8FAFC !important;
+}
+
+.climatecraft-site-footer .climatecraft-hours-block td:first-child {
+	color: #CBD5E1 !important;
+	font-weight: 500;
+}
+
+.climatecraft-site-footer .climatecraft-hours-block td:last-child {
+	color: #FFFFFF !important;
+	font-weight: 700;
+}
+
+.climatecraft-site-footer .climatecraft-hours-block tr:last-child td:last-child {
+	color: #38BDF8 !important;
+}
+
+/* Split-Stage Architectural Command Footer & Schedule Board */
+.climatecraft-footer-deck-card {
+	border-radius: 16px !important;
+	border: 1px solid #1E293B !important;
+	box-shadow: 0 20px 44px -16px rgba(0, 0, 0, 0.45) !important;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.climatecraft-footer-deck-card--dispatch {
+	border-top: 4px solid #0284C7 !important;
+	background: linear-gradient(155deg, #111827 0%, #0B1324 100%) !important;
+}
+
+.climatecraft-footer-deck-card--rebates {
+	border-top: 4px solid #C2410C !important;
+	background: linear-gradient(155deg, #111827 0%, #17131D 100%) !important;
+}
+
+.climatecraft-schedule-card {
+	border-radius: 14px !important;
+	border: 1px solid #1E293B !important;
+	border-left: 4px solid #38BDF8 !important;
+	box-shadow: 0 14px 32px -12px rgba(0, 0, 0, 0.38) !important;
+}
+
+.climatecraft-schedule-row {
+	border: 1px solid rgba(255, 255, 255, 0.07) !important;
+	align-items: center !important;
+}
+
+.climatecraft-schedule-row p {
+	margin: 0 !important;
+}
+
+.climatecraft-schedule-row--live {
+	border: 1px solid rgba(56, 189, 248, 0.38) !important;
+}
+
+.climatecraft-site-footer .wp-block-navigation .wp-block-navigation-item__content {
+	color: #CBD5E1 !important;
+	font-weight: 500 !important;
+	text-decoration: none !important;
+}
+
+.climatecraft-site-footer .wp-block-navigation .wp-block-navigation-item__content:hover {
+	color: #38BDF8 !important;
+	text-decoration: none !important;
+	transform: translateX(3px);
+}
+
+/* Split-Stage Architectural Climate Hero Section */
+.climatecraft-hero-section {
+	position: relative;
+	background:
+		radial-gradient(circle at 82% 24%, rgba(2, 132, 199, 0.22) 0%, rgba(2, 132, 199, 0) 48%),
+		radial-gradient(circle at 18% 82%, rgba(194, 65, 12, 0.16) 0%, rgba(194, 65, 12, 0) 45%),
+		linear-gradient(180deg, #070B14 0%, #0B1120 100%) !important;
+	border-bottom: 1px solid #1E293B;
+}
+
+.climatecraft-hero-mode {
+	border-radius: 12px !important;
+	border: 1px solid #1E293B !important;
+	box-shadow: 0 12px 28px -12px rgba(0, 0, 0, 0.4) !important;
+	transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.climatecraft-hero-mode:hover {
+	transform: translateY(-2px);
+}
+
+.climatecraft-hero-mode--cool {
+	border-left: 4px solid #38BDF8 !important;
+}
+
+.climatecraft-hero-mode--heat {
+	border-left: 4px solid #FB923C !important;
+}
+
+.climatecraft-hero-showcase {
+	border-radius: 20px !important;
+	border: 1px solid #1E293B !important;
+	border-top: 4px solid #0284C7 !important;
+	background: linear-gradient(160deg, #111827 0%, #0B1324 100%) !important;
+	box-shadow: 0 28px 60px -18px rgba(0, 0, 0, 0.65), 0 0 40px -10px rgba(2, 132, 199, 0.2) !important;
+}
+
+.climatecraft-hero-metric {
+	border: 1px solid #1E293B !important;
+	text-align: center;
+}
+
+.climatecraft-hero-metric p {
+	margin: 0 !important;
 }
